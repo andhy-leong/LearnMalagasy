@@ -172,6 +172,30 @@ const courseData = [
             ]
         }
     },
+    {
+        level: 8,
+        title: "Les Jours",
+        lesson: {
+            title: "Leçon 8: Les 7 jours de la semaine",
+            prompts: [
+                { type: 'word', malagasy: "Alatsinainy", french: "Lundi" }, { type: 'word', malagasy: "Talata", french: "Mardi" },
+                { type: 'word', malagasy: "Alarobia", french: "Mercredi" }, { type: 'word', malagasy: "Alakamisy", french: "Jeudi" },
+                { type: 'word', malagasy: "Zoma", french: "Vendredi" }, { type: 'word', malagasy: "Asabotsy", french: "Samedi" },
+                { type: 'word', malagasy: "Alahady", french: "Dimanche" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 8",
+            questions: [
+                { prompt: "Comment dit-on 'Vendredi' ?", options: ["Alakamisy", "Zoma", "Asabotsy", "Alahady"], answer: "Zoma" },
+                { prompt: "Que signifie 'Talata' ?", options: ["Lundi", "Mardi", "Mercredi", "Jeudi"], answer: "Mardi" },
+                { prompt: "Comment dit-on 'Dimanche' ?", options: ["Zoma", "Asabotsy", "Alahady", "Alatsinainy"], answer: "Alahady" },
+                { prompt: "Que signifie 'Alakamisy' ?", options: ["Lundi", "Mardi", "Mercredi", "Jeudi"], answer: "Jeudi" },
+                { prompt: "Le premier jour de la semaine de travail est...", options: ["Alahady", "Asabotsy", "Talata", "Alatsinainy"], answer: "Alatsinainy" },
+                { prompt: "Comment dit-on 'Mercredi' ?", options: ["Alarobia", "Talata", "Alakamisy", "Zoma"], answer: "Alarobia" }
+            ]
+        }
+    },
     {level: 9,
         title: "Les Mois",
         lesson: {
@@ -196,7 +220,101 @@ const courseData = [
                 { prompt: "Le dernier mois de l'année est...", options: ["Novambra", "Oktobra", "Septambra", "Desambra"], answer: "Desambra" }
             ]
         }
-    }
+    },
+    {
+        level: 10,
+        title: "Poser des Questions",
+        lesson: {
+            title: "Leçon 10: Mots Interrogatifs",
+            prompts: [
+                { type: 'word', malagasy: "Inona?", french: "Quoi / Quel ?" },
+                { type: 'word', malagasy: "Iza?", french: "Qui ?" },
+                { type: 'word', malagasy: "Aiza?", french: "Où ?" },
+                { type: 'word', malagasy: "Oviana?", french: "Quand ?" },
+                { type: 'text', content: "Exemple :<br><strong>Aiza ny tsena ?</strong><br>(Où est le marché ?)"}
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 10",
+            questions: [
+                { prompt: "Pour demander 'Où est l'école ?', on dirait...", options: ["Inona ny sekoly ?", "Iza ny sekoly ?", "Aiza ny sekoly ?", "Oviana ny sekoly ?"], answer: "Aiza ny sekoly ?" },
+                { prompt: "Que signifie le mot 'Iza ?'", options: ["Quand ?", "Où ?", "Quoi ?", "Qui ?"], answer: "Qui ?" },
+                { prompt: "Quel mot interrogatif utiliseriez-vous pour demander le nom de quelqu'un ?", options: ["Inona", "Iza", "Aiza", "Oviana"], answer: "Iza" },
+                { prompt: "Comment demande-t-on 'Quand ?'", options: ["Oviana", "Aiza", "Iza", "Inona"], answer: "Oviana" },
+                { prompt: "'Inona ity ?' signifie...", options: ["Qui est-ce ?", "Où est-ce ?", "Qu'est-ce que c'est ?", "Quand est-ce ?"], answer: "Qu'est-ce que c'est ?" }
+            ]
+        }
+    },
+    {
+        level: 11,
+        title: "Le Passé et le Futur",
+        lesson: {
+            title: "Leçon 11: Les temps des verbes",
+            prompts: [
+                { type: 'text', content: "En malgache, les temps se forment en changeant la première lettre du verbe." },
+                { type: 'text', content: "Présent : commence par <strong>M-</strong><br>Exemple : <strong>M</strong>iasa (Travailler)" },
+                { type: 'text', content: "Passé : remplace le M- par <strong>N-</strong><br>Exemple : <strong>N</strong>iasa (A travaillé)" },
+                { type: 'text', content: "Futur : remplace le M- par <strong>H-</strong><br>Exemple : <strong>H</strong>iasa (Travaillera)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 11",
+            questions: [
+                { prompt: "La forme au futur du verbe 'Mihinana' (Manger) est...", options: ["Nihinana", "Hihinana", "Mihinana", "Ihinana"], answer: "Hihinana" },
+                { prompt: "Le préfixe 'N-' au début d'un verbe indique...", options: ["Le présent", "Le passé", "Le futur", "L'impératif"], answer: "Le passé" },
+                { prompt: "Que signifie 'Natory aho' ?", options: ["Je dors", "Je dormirai", "J'ai dormi", "Dors !"], answer: "J'ai dormi" },
+                { prompt: "Comment dit-on 'Je parlerai' ?", options: ["Miteny aho", "Niteny aho", "Hiteny aho", "Teneny aho"], answer: "Hiteny aho" },
+                { prompt: "Quel temps est indiqué par le préfixe 'M-' ?", options: ["Passé", "Futur", "Présent", "Conditionnel"], answer: "Présent" }
+            ]
+        }
+    },
+    {
+        level: 12,
+        title: "La Famille & Possession",
+        lesson: {
+            title: "Leçon 12: Famille et possessifs",
+            prompts: [
+                { type: 'word', malagasy: "Ray", french: "Père" }, { type: 'word', malagasy: "Reny", french: "Mère" },
+                { type: 'word', malagasy: "Zanaka", french: "Enfant" },
+                { type: 'text', content: "Pour indiquer la possession, on ajoute un suffixe au nom." },
+                { type: 'text', content: "<strong>-ko</strong> = mon / ma<br><strong>-nao</strong> = ton / ta<br><strong>-ny</strong> = son / sa" },
+                { type: 'text', content: "Exemple :<br>Ray + -ko = <strong>Raiko</strong> (Mon père)<br>Reny + -nao = <strong>Reninao</strong> (Ta mère)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 12",
+            questions: [
+                { prompt: "Comment dit-on 'Ma mère' ?", options: ["Reny", "Reniko", "Reninao", "Reniny"], answer: "Reniko" },
+                { prompt: "Que signifie 'Zanakiny' ?", options: ["Mon enfant", "Ton enfant", "Son enfant", "L'enfant"], answer: "Son enfant" },
+                { prompt: "Le mot pour 'Père' est...", options: ["Reny", "Ray", "Zanaka", "Ana"], answer: "Ray" },
+                { prompt: "Le suffixe pour 'ton / ta' est...", options: ["-ko", "-nao", "-ny", "-tsika"], answer: "-nao" },
+                { prompt: "Comment dit-on 'Ton père' ?", options: ["Raiko", "Rainao", "Rainy", "Ray"], answer: "Rainao" }
+            ]
+        }
+    },
+    {
+        level: 13,
+        title: "Au Marché",
+        lesson: {
+            title: "Leçon 13: Vocabulaire pratique",
+            prompts: [
+                { type: 'word', malagasy: "Vary", french: "Riz" }, { type: 'word', malagasy: "Hena", french: "Viande" },
+                { type: 'word', malagasy: "Trondro", french: "Poisson" }, { type: 'word', malagasy: "Voankazo", french: "Fruits" },
+                { type: 'text', content: "Phrase utile pour demander le prix :<br><strong>Ohatrinona ity?</strong><br>(Combien ça coûte ?)" },
+                { type: 'text', content: "Phrase utile pour demander quelque chose :<br><strong>Mila ... aho.</strong><br>(J'ai besoin de...)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 13",
+            questions: [
+                { prompt: "Pour demander 'Combien ça coûte ?', on dit...", options: ["Mila vary aho", "Inona ity ?", "Ohatrinona ity ?", "Misaotra betsaka"], answer: "Ohatrinona ity ?" },
+                { prompt: "Que signifie le mot 'Hena' ?", options: ["Riz", "Poisson", "Viande", "Fruits"], answer: "Viande" },
+                { prompt: "Comment dit-on 'J'ai besoin de riz' ?", options: ["Mila vary aho", "Ohatrinona ny vary ?", "Hena sy vary", "Mihinana vary"], answer: "Mila vary aho" },
+                { prompt: "Le mot malgache pour 'Fruits' est...", options: ["Trondro", "Hena", "Vary", "Voankazo"], answer: "Voankazo" },
+                { prompt: "Que signifie 'Trondro' ?", options: ["Poisson", "Viande", "Fruits", "Argent"], answer: "Poisson" }
+            ]
+        }
+    }   
 ];
 
 const contentTitle = document.getElementById('content-title');
