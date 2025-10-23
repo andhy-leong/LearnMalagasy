@@ -171,6 +171,31 @@ const courseData = [
                 { prompt: "Pour dire 'Il n'y a pas' ou répondre 'De rien' à un merci, on peut utiliser...", options: ["Vola", "Tsena", "Tsy misy", "Anarana"], answer: "Tsy misy" }
             ]
         }
+    },
+    {level: 9,
+        title: "Les Mois",
+        lesson: {
+            title: "Leçon 9: Les 12 mois de l'année",
+            prompts: [
+                { type: 'word', malagasy: "Janoary", french: "Janvier" }, { type: 'word', malagasy: "Febroary", french: "Février" },
+                { type: 'word', malagasy: "Martsa", french: "Mars" }, { type: 'word', malagasy: "Aprily", french: "Avril" },
+                { type: 'word', malagasy: "Mey", french: "Mai" }, { type: 'word', malagasy: "Jona", french: "Juin" },
+                { type: 'word', malagasy: "Jolay", french: "Juillet" }, { type: 'word', malagasy: "Aogositra", french: "Août" },
+                { type: 'word', malagasy: "Septambra", french: "Septembre" }, { type: 'word', malagasy: "Oktobra", french: "Octobre" },
+                { type: 'word', malagasy: "Novambra", french: "Novembre" }, { type: 'word', malagasy: "Desambra", french: "Décembre" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 9",
+            questions: [
+                { prompt: "Comment dit-on 'Mars' ?", options: ["Mey", "Martsa", "Jona", "Jolay"], answer: "Martsa" },
+                { prompt: "Que signifie 'Aogositra' ?", options: ["Juin", "Juillet", "Août", "Septembre"], answer: "Août" },
+                { prompt: "Le premier mois de l'année est...", options: ["Desambra", "Janoary", "Febroary", "Martsa"], answer: "Janoary" },
+                { prompt: "Que signifie 'Oktobra' ?", options: ["Septembre", "Octobre", "Novembre", "Décembre"], answer: "Octobre" },
+                { prompt: "Comment dit-on 'Juin' ?", options: ["Mey", "Jona", "Jolay", "Aprily"], answer: "Jona" },
+                { prompt: "Le dernier mois de l'année est...", options: ["Novambra", "Oktobra", "Septambra", "Desambra"], answer: "Desambra" }
+            ]
+        }
     }
 ];
 
