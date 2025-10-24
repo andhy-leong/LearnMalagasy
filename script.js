@@ -1119,7 +1119,7 @@ const courseData = [
             ]
         },
         quiz: {
-            title: "Quiz du Niveau 56",
+            title: "Quiz du Niveau 46",
             questions: [
                 { prompt: "Comment dit-on 'Grand-père' dans le dialecte de Mananjary ?", options: ["Raibe", "Iaba", "Gahy", "Anadahy"], answer: "Gahy" },
                 { prompt: "Que signifie 'Anabavy' ?", options: ["Grand-mère", "Mère", "Frère", "Sœur"], answer: "Sœur" },
