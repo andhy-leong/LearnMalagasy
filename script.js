@@ -1150,6 +1150,33 @@ const courseData = [
             ]
         }
     },
+    {
+        level: 57,
+        title: "Dialecte: Les Animaux",
+        lesson: {
+            title: "Leçon 57: Les animaux de Mananjary",
+            prompts: [
+                { type: 'text', content: "Apprenons le nom de quelques animaux que l'on trouve à Mananjary et ses alentours." },
+                { type: 'word', malagasy: "Amboa", french: "Chien" },
+                { type: 'word', malagasy: "Piso", french: "Chat" },
+                { type: 'word', malagasy: "Kadradraka", french: "Cafards" },
+                { type: 'word', malagasy: "Vorondolo", french: "Hibou" },
+                { type: 'word', malagasy: "Voay", french: "Crocodile" },
+                { type: 'word', malagasy: "Vorona", french: "Oiseau (qui se prononce 'vuruna" },
+                { type: 'text', content: "Rappel : Le poisson de mer se dit <strong>'Fotatra'</strong>." }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 57",
+            questions: [
+                { prompt: "Comment dit-on 'Chien' en malgache ?", options: ["Piso", "Amboa", "Voay", "Vorondolo"], answer: "Piso" },
+                { prompt: "Que signifie 'Vorondolo' ?", options: ["Poulet", "Oiseau", "Poisson de mer", "Hibou"], answer: "Hibou" },
+                { prompt: "Le mot pour 'Crocodile' est...", options: ["Piso", "Vorona", "Amboa", "Voay"], answer: "Voay" },
+                { prompt: "Comment prononcerait-on 'Vorona' (Oiseau) à Mananjary ?", options: ["Vorona", "Vuruna", "Varona", "Vorono"], answer: "Vuruna" },
+                { type: 'sentence', prompt: "Traduisez :<br><strong>Le chat mange le poisson.</strong>", bank: ["ny", "piso", "Mihinana", "laoka"], answer: "Mihinana laoka ny piso" }
+            ]
+        }
+    }
 ];
 
 courseData[4].quiz.questions.push({
