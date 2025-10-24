@@ -314,7 +314,580 @@ const courseData = [
                 { prompt: "Que signifie 'Trondro' ?", options: ["Poisson", "Viande", "Fruits", "Argent"], answer: "Poisson" }
             ]
         }
-    }   
+    },
+    {
+        level: 14,
+        title: "La Nourriture",
+        lesson: {
+            title: "Leçon 14: Parlons nourriture",
+            prompts: [
+                { type: 'word', malagasy: "Rano", french: "Eau" },
+                { type: 'word', malagasy: "Kafe", french: "Café" },
+                { type: 'word', malagasy: "Mofo", french: "Pain" },
+                { type: 'word', malagasy: "Akoho", french: "Poulet" },
+                { type: 'word', malagasy: "Legioma", french: "Légumes" },
+                { type: 'text', content: "Phrase utile :<br><strong>Mangataka ... aho.</strong><br>(Je voudrais... / Je demande...)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 14",
+            questions: [
+                { prompt: "Comment dit-on 'Eau' en malgache ?", options: ["Kafe", "Rano", "Mofo", "Akoho"], answer: "Rano" },
+                { prompt: "Que signifie 'Mofo' ?", options: ["Café", "Eau", "Pain", "Poulet"], answer: "Pain" },
+                { prompt: "Pour demander poliment 'Je voudrais du café', vous diriez...", options: ["Mihinana kafe aho", "Kafe ity", "Mangataka kafe aho", "Ohatrinona ny kafe ?"], answer: "Mangataka kafe aho" },
+                { prompt: "Le mot 'Akoho' désigne...", options: ["Les légumes", "Le poulet", "Le pain", "L'eau"], answer: "Le poulet" },
+                { prompt: "Que signifie 'Legioma' ?", options: ["Viande", "Poisson", "Légumes", "Fruits"], answer: "Légumes" }
+            ]
+        }
+    },
+    {
+        level: 15,
+        title: "Adjectifs Communs",
+        lesson: {
+            title: "Leçon 15: Décrire les choses",
+            prompts: [
+                { type: 'text', content: "En malgache, l'adjectif se place généralement APRES le nom qu'il qualifie." },
+                { type: 'word', malagasy: "Tsara", french: "Bon / Beau" },
+                { type: 'word', malagasy: "Ratsy", french: "Mauvais" },
+                { type: 'word', malagasy: "Lehibe", french: "Grand" },
+                { type: 'word', malagasy: "Kely", french: "Petit" },
+                { type: 'text', content: "Exemple :<br><strong>Boky tsara</strong><br>(Livre bon = Un bon livre)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 15",
+            questions: [
+                { prompt: "Comment dit-on 'Grand' ?", options: ["Kely", "Tsara", "Ratsy", "Lehibe"], answer: "Lehibe" },
+                { prompt: "Pour dire 'Une petite maison' (Trano = maison), on dirait...", options: ["Kely trano", "Trano kely", "Lehibe trano", "Trano lehibe"], answer: "Trano kely" },
+                { prompt: "Que signifie 'Tsara' ?", options: ["Mauvais", "Petit", "Bon / Beau", "Grand"], answer: "Bon / Beau" },
+                { prompt: "Le contraire de 'Lehibe' est...", options: ["Ratsy", "Kely", "Tsara", "Mofo"], answer: "Kely" },
+                { prompt: "Où se place généralement l'adjectif en malgache ?", options: ["Avant le nom", "Après le nom", "Ça dépend", "Au début de la phrase"], answer: "Après le nom" }
+            ]
+        }
+    },
+    {
+        level: 16,
+        title: "Les Couleurs",
+        lesson: {
+            title: "Leçon 16: Un monde en couleurs",
+            prompts: [
+                { type: 'word', malagasy: "Fotsy", french: "Blanc" },
+                { type: 'word', malagasy: "Mainty", french: "Noir" },
+                { type: 'word', malagasy: "Mena", french: "Rouge" },
+                { type: 'word', malagasy: "Manga", french: "Bleu" },
+                { type: 'word', malagasy: "Maitso", french: "Vert" },
+                { type: 'word', malagasy: "Mavo", french: "Jaune" },
+                { type: 'word', malagasy: "Volom-boasary", french: "Orange" },
+                { type: 'word', malagasy: "Mavokely", french: "Rose" },
+                { type: 'word', malagasy: "Volom-parasy", french: "Violet" },
+                { type: 'word', malagasy: "Volon-tany", french: "Marron" },
+                { type: 'word', malagasy: "Volon-davenona", french: "Gris" },
+                { type: 'text', content: "Rappel : l'adjectif de couleur se place après le nom.<br>Exemple :<br><strong>Ny trano fotsy</strong><br>(La maison blanche)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 16",
+            questions: [
+                { prompt: "Comment dit-on 'Jaune' ?", options: ["Manga", "Mavo", "Mena", "Maitso"], answer: "Mavo" },
+                { prompt: "Que signifie 'Volom-parasy' ?", options: ["Marron", "Rose", "Gris", "Violet"], answer: "Violet" },
+                { prompt: "La couleur 'Orange' se dit...", options: ["Mavokely", "Volon-tany", "Volom-boasary", "Volon-davenona"], answer: "Volom-boasary" },
+                { prompt: "Comment dirait-on 'Le chat noir' (saka = chat) ?", options: ["Ny mainty saka", "Ny saka mainty", "Ny saka manga", "Ny manga saka"], answer: "Ny saka mainty" },
+                { prompt: "Quelle couleur est 'Mavokely' ?", options: ["Violet", "Rose", "Rouge", "Blanc"], answer: "Rose" },
+                { prompt: "Que signifie 'Volon-davenona' ?", options: ["Marron", "Gris", "Noir", "Jaune"], answer: "Gris" }
+            ]
+        }
+    },
+    {
+        level: 17,
+        title: "Expressions Utiles",
+        lesson: {
+            title: "Leçon 17: Phrases de tous les jours",
+            prompts: [
+                { type: 'word', malagasy: "Eny", french: "Oui" },
+                { type: 'word', malagasy: "Tsia", french: "Non" },
+                { type: 'word', malagasy: "Angamba", french: "Peut-être" },
+                { type: 'word', malagasy: "Tsy haiko", french: "Je ne sais pas" },
+                { type: 'word', malagasy: "Tsy maninona", french: "Ce n'est pas grave / De rien" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 17",
+            questions: [
+                { prompt: "La manière la plus simple de dire 'Non' est...", options: ["Eny", "Tsia", "Angamba", "Tsy haiko"], answer: "Tsia" },
+                { prompt: "Que signifie 'Tsy maninona' ?", options: ["Je ne sais pas", "Oui", "Ce n'est pas grave", "Peut-être"], answer: "Ce n'est pas grave" },
+                { prompt: "Comment exprime-t-on l'incertitude avec 'Peut-être' ?", options: ["Eny", "Tsia", "Angamba", "Tsy haiko"], answer: "Angamba" },
+                { prompt: "Que répondriez-vous si vous ne connaissez pas la réponse à une question ?", options: ["Tsy maninona", "Eny", "Tsia", "Tsy haiko"], answer: "Tsy haiko" },
+                { prompt: "Le contraire de 'Tsia' est...", options: ["Angamba", "Tsy haiko", "Eny", "Misaotra"], answer: "Eny" }
+            ]
+        }
+    },
+    {
+        level: 18,
+        title: "Exprimer des sentiments",
+        lesson: {
+            title: "Leçon 18: Comment ça va ?",
+            prompts: [
+                { type: 'text', content: "Pour exprimer un état, on utilise souvent le mot '... aho'." },
+                { type: 'word', malagasy: "Faly", french: "Content / Heureux" },
+                { type: 'word', malagasy: "Malahelo", french: "Triste" },
+                { type: 'word', malagasy: "Vizaka", french: "Fatigué" },
+                { type: 'word', malagasy: "Noana", french: "Avoir faim" },
+                { type: 'text', content: "Exemple :<br><strong>Faly aho.</strong><br>(Je suis content.)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 18",
+            questions: [
+                { prompt: "Comment dit-on 'Je suis fatigué' ?", options: ["Faly aho", "Malahelo aho", "Vizaka aho", "Noana aho"], answer: "Vizaka aho" },
+                { prompt: "Que signifie 'Malahelo' ?", options: ["Content", "Triste", "Fatigué", "Avoir faim"], answer: "Triste" },
+                { prompt: "Si vous n'avez pas mangé, vous diriez...", options: ["Faly aho", "Vizaka aho", "Malahelo aho", "Noana aho"], answer: "Noana aho" },
+                { prompt: "Le mot pour 'Content' ou 'Heureux' est...", options: ["Malahelo", "Vizaka", "Noana", "Faly"], answer: "Faly" },
+                { prompt: "Comment exprimer 'Je suis triste' ?", options: ["Malahelo aho", "Faly aho", "Vizaka aho", "Tsy haiko"], answer: "Malahelo aho" }
+            ]
+        }
+    },
+    {
+        level: 19,
+        title: "L'heure",
+        lesson: {
+            title: "Leçon 19: Quelle heure est-il ?",
+            prompts: [
+                { type: 'text', content: "Pour demander l'heure, on dit :<br><strong>Amin'ny firy izao?</strong><br>(littéralement: 'À combien maintenant ?')" },
+                { type: 'word', malagasy: "Amin'ny fito", french: "À sept heures" },
+                { type: 'word', malagasy: "Amin'ny valo sy fahefany", french: "À huit heures et quart" },
+                { type: 'word', malagasy: "Amin'ny sivy sy sasany", french: "À neuf heures et demie" },
+                { type: 'word', malagasy: "Latsaka fahefany amin'ny folo", french: "Dix heures moins le quart" },
+                { type: 'text', content: "<strong>Sy</strong> = et (pour 'et quart', 'et demie')<br><strong>Latsaka</strong> = moins (pour 'moins le quart')" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 19",
+            questions: [
+                { prompt: "Comment demande-t-on l'heure ?", options: ["Aiza ny ora ?", "Oviana izao ?", "Amin'ny firy izao ?", "Inona ny fotoana ?"], answer: "Amin'ny firy izao ?" },
+                { prompt: "Que signifie 'sy sasany' ?", options: ["Et quart", "Moins le quart", "Pile", "Et demie"], answer: "Et demie" },
+                { prompt: "Comment dirait-on 'À deux heures et demie' ?", options: ["Amin'ny roa sy fahefany", "Latsaka amin'ny roa", "Amin'ny roa sy sasany", "Amin'ny roa"], answer: "Amin'ny roa sy sasany" },
+                { prompt: "Que veut dire 'Latsaka fahefany amin'ny telo' ?", options: ["Trois heures et quart", "Trois heures moins le quart", "Deux heures et quart", "Quatre heures moins le quart"], answer: "Trois heures moins le quart" },
+                { prompt: "Le mot 'Latsaka' est utilisé pour indiquer...", options: ["Les minutes après l'heure", "L'heure pile", "Les minutes avant l'heure", "La demie"], answer: "Les minutes avant l'heure" }
+            ]
+        }
+    },
+    {
+        level: 20,
+        title: "Directions",
+        lesson: {
+            title: "Leçon 20: Trouver son chemin",
+            prompts: [
+                { type: 'word', malagasy: "Ankavanana", french: "À droite" },
+                { type: 'word', malagasy: "Ankavia", french: "À gauche" },
+                { type: 'word', malagasy: "Mahitsy", french: "Tout droit" },
+                { type: 'word', malagasy: "Ato", french: "Ici" },
+                { type: 'word', malagasy: "Ao", french: "Là-bas" },
+                { type: 'text', content: "Phrase utile :<br><strong>Aiza ny ... azafady?</strong><br>(Où est le/la ... s'il vous plaît ?)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 20",
+            questions: [
+                { prompt: "Comment dit-on 'À gauche' ?", options: ["Ankavanana", "Ankavia", "Mahitsy", "Ao"], answer: "Ankavia" },
+                { prompt: "Pour indiquer 'Tout droit', on utilise le mot...", options: ["Ato", "Ao", "Mahitsy", "Ankavanana"], answer: "Mahitsy" },
+                { prompt: "Que signifie 'Ankavanana' ?", options: ["À gauche", "Tout droit", "Ici", "À droite"], answer: "À droite" },
+                { prompt: "Si quelque chose est loin, vous diriez que c'est...", options: ["Ato", "Ao", "Ankavia", "Mahitsy"], answer: "Ao" },
+                { prompt: "Comment demanderiez-vous 'Où est le marché, s'il vous plaît ?'", options: ["Inona ny tsena azafady ?", "Aiza ny tsena azafady ?", "Manao ahoana ny tsena ?", "Mila tsena aho"], answer: "Aiza ny tsena azafady ?" }
+            ]
+        }
+    },
+    {
+        level: 21,
+        title: "La Santé",
+        lesson: {
+            title: "Leçon 21: Chez le docteur",
+            prompts: [
+                { type: 'text', content: "Pour exprimer une douleur, on utilise 'Marary ... aho'." },
+                { type: 'word', malagasy: "Marary an-doha aho", french: "J'ai mal à la tête" },
+                { type: 'word', malagasy: "Marary kibo aho", french: "J'ai mal au ventre" },
+                { type: 'word', malagasy: "Marary tenda aho", french: "J'ai mal à la gorge" },
+                { type: 'word', malagasy: "Dokotera", french: "Docteur" },
+                { type: 'word', malagasy: "Fanafody", french: "Médicament" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 21",
+            questions: [
+                { prompt: "Comment dit-on 'J'ai mal au ventre' ?", options: ["Marary an-doha aho", "Marary tenda aho", "Marary kibo aho", "Marary aho"], answer: "Marary kibo aho" },
+                { prompt: "Que signifie 'Fanafody' ?", options: ["Docteur", "Maladie", "Hôpital", "Médicament"], answer: "Médicament" },
+                { prompt: "Si vous avez mal à la tête, vous dites...", options: ["Marary an-doha aho", "Marary kibo aho", "Vizaka aho", "Mila dokotera aho"], answer: "Marary an-doha aho" },
+                { prompt: "Le mot 'Dokotera' est le mot malgache pour...", options: ["Infirmier", "Patient", "Docteur", "Pharmacie"], answer: "Docteur" },
+                { prompt: "Que signifie 'Marary tenda aho' ?", options: ["J'ai mal aux dents", "J'ai mal à la gorge", "J'ai mal au dos", "J'ai de la fièvre"], answer: "J'ai mal à la gorge" }
+            ]
+        }
+    },
+    {
+        level: 22,
+        title: "La Météo",
+        lesson: {
+            title: "Leçon 22: Quel temps fait-il ?",
+            prompts: [
+                { type: 'word', malagasy: "Mafana ny andro", french: "Il fait chaud" },
+                { type: 'word', malagasy: "Mangatsiaka ny andro", french: "Il fait froid" },
+                { type: 'word', malagasy: "Misy masoandro", french: "Il y a du soleil" },
+                { type: 'word', malagasy: "Milatsaka ny orana", french: "Il pleut" },
+                { type: 'word', malagasy: "Misy rivotra", french: "Il y a du vent" },
+                { type: 'text', content: "On utilise souvent 'ny andro' pour parler du temps qu'il fait." }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 22",
+            questions: [
+                { prompt: "Pour dire 'Il fait froid', on utilise...", options: ["Mafana ny andro", "Mangatsiaka ny andro", "Misy masoandro", "Misy rivotra"], answer: "Mangatsiaka ny andro" },
+                { prompt: "Que signifie 'Milatsaka ny orana' ?", options: ["Il fait chaud", "Il y a du vent", "Il pleut", "Il neige"], answer: "Il pleut" },
+                { prompt: "Le contraire de 'Mafana' est...", options: ["Rivotra", "Orana", "Mangatsiaka", "Masoandro"], answer: "Mangatsiaka" },
+                { prompt: "Comment dit-on 'Il y a du soleil' ?", options: ["Misy masoandro", "Misy rivotra", "Mafana ny andro", "Milatsaka ny orana"], answer: "Misy masoandro" },
+                { prompt: "Le mot 'rivotra' désigne...", options: ["La pluie", "Le soleil", "La chaleur", "Le vent"], answer: "Le vent" }
+            ]
+        }
+    },
+    {
+        level: 23,
+        title: "Il y a / Il n'y a pas",
+        lesson: {
+            title: "Leçon 23: 'Misy' et 'Tsy misy'",
+            prompts: [
+                { type: 'text', content: "'Misy' est un mot très utile qui veut dire 'Il y a' ou 'Existe'." },
+                { type: 'word', malagasy: "Misy olona ao.", french: "Il y a des gens là-bas." },
+                { type: 'word', malagasy: "Misy rano?", french: "Y a-t-il de l'eau ?" },
+                { type: 'text', content: "Son contraire est 'Tsy misy', qui veut dire 'Il n'y a pas'." },
+                { type: 'word', malagasy: "Tsy misy olana.", french: "Il n'y a pas de problème." },
+                { type: 'word', malagasy: "Tsy misy fanafody.", french: "Il n'y a pas de médicament." }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 23",
+            questions: [
+                { prompt: "Comment dit-on 'Il n'y a pas' ?", options: ["Misy", "Misy ve ?", "Tsy misy", "Azafady"], answer: "Tsy misy" },
+                { prompt: "Pour demander 'Y a-t-il du pain ?', on dirait...", options: ["Misy mofo ?", "Tsy misy mofo", "Mofo misy", "Mofo azafady"], answer: "Misy mofo ?" },
+                { prompt: "L'expression très courante 'Pas de problème' se dit...", options: ["Misy olana", "Olana be", "Tsy misy olana", "Aiza ny olana ?"], answer: "Tsy misy olana" },
+                { prompt: "Que signifie 'Misy dokotera ato' ?", options: ["Il n'y a pas de docteur", "Où est le docteur ?", "Je suis docteur", "Il y a un docteur ici"], answer: "Il y a un docteur ici" },
+                { prompt: "Le contraire de 'Misy' est...", options: ["Tsy misy", "Misy be", "Kely", "Tsy haiko"], answer: "Tsy misy" }
+            ]
+        }
+    },
+    {
+        level: 24,
+        title: "Questions (Oui/Non)",
+        lesson: {
+            title: "Leçon 24: Poser une question avec 'Ve'",
+            prompts: [
+                { type: 'text', content: "Pour transformer une affirmation en question fermée (réponse oui/non), on ajoute souvent le mot 've' à la fin." },
+                { type: 'text', content: "Affirmation :<br><strong>Mandeha ianao.</strong> (Tu pars.)" },
+                { type: 'text', content: "Question :<br><strong>Mandeha ve ianao?</strong> (Est-ce que tu pars ?)" },
+                { type: 'text', content: "Affirmation :<br><strong>Tsara ny andro.</strong> (Il fait beau.)" },
+                { type: 'text', content: "Question :<br><strong>Tsara ve ny andro?</strong> (Est-ce qu'il fait beau ?)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 24",
+            questions: [
+                { prompt: "Quel mot ajoute-t-on souvent à la fin d'une phrase pour la transformer en question ?", options: ["Aho", "Ianao", "Ve", "Eny"], answer: "Ve" },
+                { prompt: "Comment transformer 'Vizaka ianao' (Tu es fatigué) en question ?", options: ["Ianao vizaka ve ?", "Vizaka ianao ve ?", "Ve vizaka ianao ?", "Vizaka ianao."], answer: "Vizaka ianao ve ?" },
+                { prompt: "Que signifie 'Mihinana trondro ve izy ?'", options: ["Il mange du poisson.", "Est-ce qu'il mange du poisson ?", "Il n'aime pas le poisson.", "Le poisson est bon."], answer: "Est-ce qu'il mange du poisson ?" },
+                { prompt: "Quelle est la question pour 'Misy kafe' (Il y a du café) ?", options: ["Kafe misy ve ?", "Misy ve kafe ?", "Misy kafe ve ?", "Tsy misy kafe ?"], answer: "Misy kafe ve ?" },
+                { prompt: "La réponse à une question avec 've' est généralement...", options: ["Un lieu", "Une personne", "Eny / Tsia", "Une heure"], answer: "Eny / Tsia" }
+            ]
+        }
+    },
+    {
+        level: 25,
+        title: "Aimer & Vouloir",
+        lesson: {
+            title: "Leçon 25: Exprimer ses désirs avec 'Tiako'",
+            prompts: [
+                { type: 'text', content: "Le mot 'Tia' exprime l'amour ou le fait d'aimer. Quand on dit 'Tiako', cela signifie 'J'aime' ou 'Je veux'." },
+                { type: 'word', malagasy: "Tiako ianao.", french: "Je t'aime." },
+                { type: 'word', malagasy: "Tiako ity boky ity.", french: "J'aime ce livre." },
+                { type: 'text', content: "Pour dire ce que l'on ne veut pas, on utilise 'Tsy tiako'." },
+                { type: 'word', malagasy: "Tsy tiako ny orana.", french: "Je n'aime pas la pluie." },
+                { type: 'text', content: "On peut aussi l'utiliser pour dire 'vouloir' :<br><strong>Tiako ny handeha.</strong> (Je veux partir.)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 25",
+            questions: [
+                { prompt: "Comment dit-on 'J'aime' ou 'Je veux' ?", options: ["Haiko", "Aho", "Misy", "Tiako"], answer: "Tiako" },
+                { prompt: "Comment exprimer 'Je n'aime pas les légumes (legioma)' ?", options: ["Tiako ny legioma.", "Tsy tiako ny legioma.", "Misy legioma.", "Legioma aho."], answer: "Tsy tiako ny legioma." },
+                { prompt: "Que signifie 'Tiako ianao' ?", options: ["Je te déteste", "Je te vois", "Je t'aime", "Je pars"], answer: "Je t'aime" },
+                { prompt: "Pour dire 'Je veux dormir', on peut dire...", options: ["Matory aho", "Tiako ny matory", "Tsy tiako ny matory", "Aza matory"], answer: "Tiako ny matory" },
+                { prompt: "Le contraire de 'Tiako' est...", options: ["Tsy maninona", "Tsy haiko", "Tsy misy", "Tsy tiako"], answer: "Tsy tiako" }
+            ]
+        }
+    },
+    {
+        level: 26,
+        title: "Animaux",
+        lesson: {
+            title: "Leçon 26: Les animaux courants",
+            prompts: [
+                { type: 'word', malagasy: "Alika", french: "Chien" },
+                { type: 'word', malagasy: "Saka", french: "Chat" },
+                { type: 'word', malagasy: "Omby", french: "Vache / Zébu" },
+                { type: 'word', malagasy: "Vorona", french: "Oiseau" },
+                { type: 'word', malagasy: "Maki", french: "Lémurien" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 26",
+            questions: [
+                { prompt: "Comment s'appelle l'animal emblématique de Madagascar ?", options: ["Alika", "Saka", "Omby", "Maki"], answer: "Maki" },
+                { prompt: "Que signifie 'Saka' ?", options: ["Chien", "Chat", "Vache", "Oiseau"], answer: "Chat" },
+                { prompt: "Le mot pour 'Chien' est...", options: ["Saka", "Alika", "Omby", "Vorona"], answer: "Alika" },
+                { prompt: "Que désigne le mot 'Vorona' ?", options: ["Un zébu", "Un lémurien", "Un oiseau", "Un chat"], answer: "Un oiseau" },
+                { prompt: "'Omby' est le mot malgache pour...", options: ["Oiseau", "Chat", "Vache / Zébu", "Chien"], answer: "Vache / Zébu" }
+            ]
+        }
+    },
+    {
+        level: 27,
+        title: "A la Maison",
+        lesson: {
+            title: "Leçon 27: Vocabulaire de la maison",
+            prompts: [
+                { type: 'word', malagasy: "Trano", french: "Maison" },
+                { type: 'word', malagasy: "Varavarana", french: "Porte" },
+                { type: 'word', malagasy: "Latabatra", french: "Table" },
+                { type: 'word', malagasy: "Seza", french: "Chaise" },
+                { type: 'word', malagasy: "Efitra", french: "Chambre / Pièce" },
+                { type: 'text', content: "Exemple: <br><strong>Misy seza efatra ao amin'ny efitra.</strong><br>(Il y a quatre chaises dans la pièce.)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 27",
+            questions: [
+                { prompt: "Comment dit-on 'Maison' ?", options: ["Efitra", "Trano", "Seza", "Latabatra"], answer: "Trano" },
+                { prompt: "Que signifie 'Varavarana' ?", options: ["Fenêtre", "Porte", "Table", "Chaise"], answer: "Porte" },
+                { prompt: "Sur quoi s'assied-on ?", options: ["Latabatra", "Seza", "Efitra", "Trano"], answer: "Seza" },
+                { prompt: "Le mot 'Efitra' peut signifier...", options: ["Table", "Porte", "Cuisine", "Chambre / Pièce"], answer: "Chambre / Pièce" },
+                { prompt: "Pour dire 'La table est grande', on dirait...", options: ["Lehibe ny latabatra", "Latabatra lehibe", "Ny latabatra lehibe", "Lehibe latabatra"], answer: "Lehibe ny latabatra" }
+            ]
+        }
+    },
+    {
+        level: 28,
+        title: "Capable de...",
+        lesson: {
+            title: "Leçon 28: Exprimer la capacité avec 'Mahay'",
+            prompts: [
+                { type: 'text', content: "Le mot 'Mahay' signifie 'savoir' ou 'être capable de'." },
+                { type: 'word', malagasy: "Mahay miteny malagasy aho.", french: "Je sais parler malgache." },
+                { type: 'word', malagasy: "Mahay mahandro sakafo ianao.", french: "Tu sais cuisiner." },
+                { type: 'text', content: "Son contraire est 'Tsy mahay'." },
+                { type: 'word', malagasy: "Tsy mahay milomano izy.", french: "Il/Elle ne sait pas nager." }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 28",
+            questions: [
+                { prompt: "Quel mot utilise-t-on pour 'savoir' ou 'être capable de' ?", options: ["Mandeha", "Miasa", "Mahay", "Mihinana"], answer: "Mahay" },
+                { prompt: "Comment dit-on 'Je ne sais pas' (dans le sens de ne pas avoir la compétence) ?", options: ["Tsy haiko", "Tsy mahay aho", "Tsy tiako", "Tsy misy"], answer: "Tsy mahay aho" },
+                { prompt: "Que signifie 'Mahay mihira ve ianao ?'", options: ["Tu aimes chanter ?", "Sais-tu chanter ?", "Tu chantes bien.", "Tu ne chantes pas."], answer: "Sais-tu chanter ?" },
+                { prompt: "Pour dire 'Il sait travailler', on dirait...", options: ["Miasa izy", "Tsy mahay miasa izy", "Mahay miasa izy", "Tiako ny miasa"], answer: "Mahay miasa izy" },
+                { prompt: "Le contraire de 'Mahay' est...", options: ["Tsy tsara", "Tsy hainao", "Tsy mahay", "Kely"], answer: "Tsy mahay" }
+            ]
+        }
+    },
+    {
+        level: 29,
+        title: "Donner des Ordres",
+        lesson: {
+            title: "Leçon 29: L'impératif",
+            prompts: [
+                { type: 'text', content: "Pour donner un ordre ou une instruction simple, on enlève souvent le 'M-' du début du verbe au présent." },
+                { type: 'word', malagasy: "Mandeha -> Ndeha!", french: "Aller -> Va!" },
+                { type: 'word', malagasy: "Mihinana -> Hinàna!", french: "Manger -> Mange!" },
+                { type: 'word', malagasy: "Matory -> Matoria!", french: "Dormir -> Dors!" },
+                { type: 'text', content: "Pour la forme négative (ne fais pas...), on utilise 'Aza' + le verbe au présent." },
+                { type: 'word', malagasy: "Aza mandeha!", french: "Ne pars pas !" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 29",
+            questions: [
+                { prompt: "Comment donner l'ordre 'Parle !' à partir du verbe 'Miteny' ?", options: ["Mitenena !", "Aza miteny !", "Miteny ve ?", "Teny !"], answer: "Mitenena !" },
+                { prompt: "Que signifie 'Aza matahotra !' ?", options: ["Aie peur !", "N'aie pas peur !", "As-tu peur ?", "J'ai peur."], answer: "N'aie pas peur !" },
+                { prompt: "Quel mot précède un verbe pour donner un ordre négatif ?", options: ["Tsy", "Aza", "Ve", "Ndeha"], answer: "Aza" },
+                { prompt: "L'impératif de 'Miasa' (Travailler) est...", options: ["Aza miasa !", "Miasà !", "Miasa ve ?", "Niasa"], answer: "Miasà !" },
+                { prompt: "Que veut dire 'Ankavia !' ?", options: ["Va à gauche !", "Ne va pas à gauche !", "C'est à gauche ?", "C'est à gauche."], answer: "Va à gauche !" }
+            ]
+        }
+    },
+    {
+        level: 30,
+        title: "Mots de Liaison",
+        lesson: {
+            title: "Leçon 30: Connecter ses idées",
+            prompts: [
+                { type: 'word', malagasy: "Sy", french: "Et (pour lier des noms)" },
+                { type: 'word', malagasy: "Ary", french: "Et (pour commencer une phrase ou lier des phrases)" },
+                { type: 'word', malagasy: "Nefa", french: "Mais" },
+                { type: 'word', malagasy: "Satria", french: "Parce que" },
+                { type: 'text', content: "Exemple :<br><strong>Tiako ny vary sy hena.</strong> (J'aime le riz et la viande.)" },
+                { type: 'text', content: "Exemple 2 :<br><strong>Vizaka aho, nefa faly.</strong> (Je suis fatigué, mais content.)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 30",
+            questions: [
+                { prompt: "Quel mot utilise-t-on pour 'parce que' ?", options: ["Sy", "Ary", "Nefa", "Satria"], answer: "Satria" },
+                { prompt: "Comment dit-on 'mais' ?", options: ["Nefa", "Satria", "Sy", "Ary"], answer: "Nefa" },
+                { prompt: "Dans la phrase 'Mihinana mofo __ kafe aho', quel mot manque ?", options: ["ary", "nefa", "sy", "satria"], answer: "sy" },
+                { prompt: "Que signifie la phrase 'Tsy handeha aho satria marary' ?", options: ["Je ne pars pas et je suis malade", "Je ne pars pas mais je suis malade", "Je ne pars pas parce que je suis malade", "Je ne pars pas ou je suis malade"], answer: "Je ne pars pas parce que je suis malade" },
+                { prompt: "Quel mot est le plus approprié pour commencer une nouvelle phrase en disant 'Et...' ?", options: ["Sy", "Nefa", "Ary", "Satria"], answer: "Ary" }
+            ]
+        }
+    },
+    {
+        level: 31,
+        title: "Phrases Complexes",
+        lesson: {
+            title: "Leçon 31: Révision et construction",
+            prompts: [
+                { type: 'text', content: "Mettons tout ensemble ! Observez comment les concepts s'assemblent." },
+                { type: 'text', content: "<strong>Tsy nihinana aho omaly satria tsy nisy sakafo.</strong><br>(Je n'ai pas mangé hier parce qu'il n'y avait pas de nourriture.)" },
+                { type: 'text', content: "<strong>Handeha hividy boky vaovao ve ianao rahampitso?</strong><br>(Iras-tu acheter un nouveau livre demain ?)" },
+                { type: 'text', content: "<strong>Mahay miteny malagasy kely aho, nefa tiako ny mianatra bebe kokoa.</strong><br>(Je sais parler un peu malgache, mais je veux apprendre plus.)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 31",
+            questions: [
+                { prompt: "Que signifie 'rahampitso' dans la 2ème phrase d'exemple ?", options: ["Hier", "Aujourd'hui", "Demain", "Maintenant"], answer: "Demain" },
+                { prompt: "Le mot 'omaly' signifie...", options: ["Demain", "Hier", "Matin", "Soir"], answer: "Hier" },
+                { prompt: "Que veut dire 'kely' dans la phrase 'miteny malagasy kely aho' ?", options: ["Bien", "Rapidement", "Un peu", "Beaucoup"], answer: "Un peu" },
+                { prompt: "Dans la première phrase, 'tsy nihinana' est au...", options: ["Présent", "Futur", "Passé", "Impératif"], answer: "Passé" },
+                { prompt: "Que signifie 'hividy' ?", options: ["Vendre", "Acheter", "Prendre", "Donner"], answer: "Acheter" }
+            ]
+        }
+    },
+    {
+        level: 32,
+        title: "Comparaisons",
+        lesson: {
+            title: "Leçon 32: Plus grand, meilleur, plus rapide",
+            prompts: [
+                { type: 'text', content: "Pour comparer deux choses, on utilise la structure :<br><strong>Adjectif + kokoa noho ny...</strong> (plus ... que le/la...)" },
+                { type: 'word', malagasy: "Lehibe kokoa noho ny tranoko ny tranonao.", french: "Ta maison est plus grande que ma maison." },
+                { type: 'text', content: "Pour le superlatif (le/la plus...), on utilise <strong>'indrindra'</strong> après l'adjectif." },
+                { type: 'word', malagasy: "Izy no haingana indrindra.", french: "C'est lui/elle le/la plus rapide." },
+                { type: 'word', malagasy: "Inona no sakafo tsara indrindra eto?", french: "Quel est le meilleur plat ici ?" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 32",
+            questions: [
+                { prompt: "Comment dit-on 'plus ... que' ?", options: ["indrindra", "kokoa noho", "satria", "kely"], answer: "kokoa noho" },
+                { prompt: "Pour dire 'Le plus grand', on dirait...", options: ["Lehibe kokoa", "Lehibe kely", "Lehibe indrindra", "Lehibe noho"], answer: "Lehibe indrindra" },
+                { prompt: "Que signifie 'Tsara kokoa noho ity io' ?", options: ["Ceci est mieux que cela", "Cela est mieux que ceci", "Ceci est le meilleur", "Cela est mauvais"], answer: "Cela est mieux que ceci" },
+                { prompt: "Comment demanderiez-vous 'Qui est le plus âgé (antitra)' ?", options: ["Iza no antitra kokoa ?", "Iza no antitra indrindra ?", "Antitra ve ianao ?", "Antitra noho izy aho"], answer: "Iza no antitra indrindra ?" },
+                { prompt: "Le mot 'indrindra' exprime...", options: ["La comparaison", "La négation", "Le superlatif", "La possession"], answer: "Le superlatif" }
+            ]
+        }
+    },
+    {
+        level: 33,
+        title: "Les Métiers",
+        lesson: {
+            title: "Leçon 33: Les professions",
+            prompts: [
+                { type: 'word', malagasy: "Mpampianatra", french: "Enseignant(e)" },
+                { type: 'word', malagasy: "Mpianatra", french: "Étudiant(e)" },
+                { type: 'word', malagasy: "Mpamboly", french: "Agriculteur / Paysan" },
+                { type: 'word', malagasy: "Mpamily", french: "Chauffeur" },
+                { type: 'word', malagasy: "Mpisitrika", french: "Pêcheur" },
+                { type: 'text', content: "Le préfixe <strong>'Mp-'</strong> ou <strong>'Mpan-'</strong> indique souvent la personne qui fait l'action." }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 33",
+            questions: [
+                { prompt: "Comment appelle-t-on un 'étudiant' ?", options: ["Mpampianatra", "Mpianatra", "Mpamboly", "Mpamily"], answer: "Mpianatra" },
+                { prompt: "Que fait un 'mpamboly' ?", options: ["Il conduit", "Il enseigne", "Il cultive la terre", "Il pêche"], answer: "Il cultive la terre" },
+                { prompt: "Le mot pour 'chauffeur' est...", options: ["Mpisitrika", "Mpamily", "Mpianatra", "Dokotera"], answer: "Mpamily" },
+                { prompt: "Quel est le métier d'un 'mpampianatra' ?", options: ["Étudiant", "Pêcheur", "Enseignant", "Docteur"], answer: "Enseignant" },
+                { prompt: "Le préfixe 'Mp-' devant un verbe désigne souvent...", options: ["L'action", "Le lieu", "La personne qui fait l'action", "Le temps (passé/futur)"], answer: "La personne qui fait l'action" }
+            ]
+        }
+    },
+    {
+        level: 34,
+        title: "Les Transports",
+        lesson: {
+            title: "Leçon 34: Comment se déplacer",
+            prompts: [
+                { type: 'word', malagasy: "Fiara", french: "Voiture" },
+                { type: 'word', malagasy: "Fiaramanidina", french: "Avion" },
+                { type: 'word', malagasy: "Bisikileta", french: "Vélo" },
+                { type: 'word', malagasy: "Sarety", french: "Charrette" },
+                { type: 'word', malagasy: "Taxi-be", french: "Taxi-brousse / Minibus" },
+                { type: 'text', content: "Phrase utile :<br><strong>Mandeha ... aho.</strong><br>(Je vais en... / Je prends...)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 34",
+            questions: [
+                { prompt: "Comment dit-on 'Avion' ?", options: ["Fiara", "Sarety", "Fiaramanidina", "Taxi-be"], answer: "Fiaramanidina" },
+                { prompt: "Le 'taxi-be' est un moyen de transport très courant qui correspond à un...", options: ["Vélo", "Avion", "Minibus", "Bateau"], answer: "Minibus" },
+                { prompt: "Que signifie 'fiara' ?", options: ["Avion", "Voiture", "Vélo", "Charrette"], answer: "Voiture" },
+                { prompt: "Pour dire 'Je vais en voiture', vous diriez...", options: ["Mandeha fiara aho", "Fiara aho", "Misy fiara", "Tiako ny fiara"], answer: "Mandeha fiara aho" },
+                { prompt: "Le mot 'Sarety' désigne...", options: ["Une voiture", "Un vélo", "Une charrette", "Un avion"], answer: "Une charrette" }
+            ]
+        }
+    },
+    {
+        level: 35,
+        title: "Nature et Paysages",
+        lesson: {
+            title: "Leçon 35: Décrire l'environnement",
+            prompts: [
+                { type: 'word', malagasy: "Tendrombohitra", french: "Montagne" },
+                { type: 'word', malagasy: "Ranomasina", french: "La mer / L'océan" },
+                { type: 'word', malagasy: "Renirano", french: "Rivière / Fleuve" },
+                { type: 'word', malagasy: "Ala", french: "Forêt" },
+                { type: 'word', malagasy: "Tanimbary", french: "Rizière" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 35",
+            questions: [
+                { prompt: "Comment appelle-t-on une 'montagne' ?", options: ["Ranomasina", "Renirano", "Tendrombohitra", "Ala"], answer: "Tendrombohitra" },
+                { prompt: "Le mot 'Ala' signifie...", options: ["Mer", "Forêt", "Rivière", "Rizière"], answer: "Forêt" },
+                { prompt: "Où cultive-t-on le riz ?", options: ["Ao an'ala", "Any an-tendrombohitra", "Ao anaty ranomasina", "Any an-tanimbary"], answer: "Any an-tanimbary" },
+                { prompt: "Que signifie 'ranomasina' ?", options: ["Rivière", "Montagne", "Forêt", "La mer"], answer: "La mer" },
+                { prompt: "Le mot pour 'rivière' ou 'fleuve' est...", options: ["Renirano", "Tendrombohitra", "Ala", "Tanimbary"], answer: "Renirano" }
+            ]
+        }
+    },
+    {
+        level: 36,
+        title: "Expressions de Politesse",
+        lesson: {
+            title: "Leçon 36: Aller plus loin",
+            prompts: [
+                { type: 'word', malagasy: "Misaotra betsaka", french: "Merci beaucoup" },
+                { type: 'word', malagasy: "Tsy misy fisaorana", french: "De rien (formel)" },
+                { type: 'word', malagasy: "Mifona aho", french: "Je m'excuse / Je suis désolé(e)" },
+                { type: 'word', malagasy: "Mahazoa sitraka", french: "S'il vous plaît (très formel, pour une demande)" },
+                { type: 'text', content: "Le mot <strong>'Tompoko'</strong> est un terme de respect ajouté à la fin des phrases pour s'adresser à quelqu'un avec déférence.<br>Ex: Veloma, tompoko." }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 36",
+            questions: [
+                { prompt: "Pour dire 'Merci beaucoup', on renforce 'Misaotra' avec...", options: ["kely", "be", "betsaka", "tsara"], answer: "betsaka" },
+                { prompt: "Que signifie 'Mifona aho' ?", options: ["S'il vous plaît", "Je suis désolé(e)", "Au revoir", "Merci"], answer: "Je suis désolé(e)" },
+                { prompt: "Quelle est une manière formelle de dire 'De rien' ?", options: ["Tsy misy olana", "Tsy maninona", "Eny", "Tsy misy fisaorana"], answer: "Tsy misy fisaorana" },
+                { prompt: "Le mot 'Tompoko' est utilisé pour montrer...", options: ["La colère", "La tristesse", "Le respect", "La faim"], answer: "Le respect" },
+                { prompt: "L'expression 'Mahazoa sitraka' est une version très formelle de...", options: ["Merci", "S'il vous plaît", "Bonjour", "Au revoir"], answer: "S'il vous plaît" }
+            ]
+        }
+    }
 ];
 
 const contentTitle = document.getElementById('content-title');
