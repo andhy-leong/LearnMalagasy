@@ -1098,7 +1098,7 @@ const courseData = [
                 {
                     type: 'sentence',
                     prompt: "Traduisez la phrase :<br><strong>Ma mère achètera des fruits demain au marché.</strong>",
-                    bank: ["rahampitso", "hividy", "voankazo", "reniko", "any", "an-tsena", "ny"],
+                    bank: ["rahampitso", "Hividy", "voankazo", "reniko", "any", "an-tsena", "ny"],
                     answer: "Hividy voankazo any an-tsena ny reniko rahampitso"
                 }
             ]
