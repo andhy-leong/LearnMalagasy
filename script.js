@@ -1151,7 +1151,7 @@ const courseData = [
         }
     },
     {
-        level: 57,
+        level: 48,
         title: "Dialecte: Les Animaux",
         lesson: {
             title: "Leçon 57: Les animaux de Mananjary",
