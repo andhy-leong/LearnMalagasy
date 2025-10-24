@@ -1104,6 +1104,30 @@ const courseData = [
                 }
             ]
         }
+    },
+    {
+        level: 46,
+        title: "Dialecte: Mananjary",
+        lesson: {
+            title: "Leçon 56: La fratrie et les grands-parents",
+            prompts: [
+                { type: 'text', content: "Élargissons le cercle familial avec les frères, sœurs et grands-parents en dialecte Antemoro." },
+                { type: 'word', malagasy: "Anadahy", french: "Frère" },
+                { type: 'word', malagasy: "Anabavy", french: "Sœur" },
+                { type: 'word', malagasy: "Gahy", french: "Grand-père (local)" },
+                { type: 'word', malagasy: "Vavy", french: "Grand-mère (local)" },
+                { type: 'text', content: "Rappel : Pour dire 'ton/ta', on ajoute '-nao'.<br><strong>Iabanao</strong> (Ton père)<br><strong>Endrinao</strong> (Ta mère)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 56",
+            questions: [
+                { prompt: "Comment dit-on 'Grand-père' dans le dialecte de Mananjary ?", options: ["Raibe", "Iaba", "Gahy", "Anadahy"], answer: "Gahy" },
+                { prompt: "Que signifie 'Anabavy' ?", options: ["Grand-mère", "Mère", "Frère", "Sœur"], answer: "Sœur" },
+                { prompt: "Le mot 'Vavy' est le terme local pour...", options: ["Père", "Grand-mère", "Sœur", "Tante"], answer: "Grand-mère" },
+                { type: 'sentence', prompt: "Traduisez :<br><strong>Où est ta mère ?</strong>", bank: ["endrinao?", "Aia", "i"], answer: "Aia i endrinao?" }
+            ]
+        }
     }
 ];
 
