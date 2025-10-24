@@ -1056,7 +1056,7 @@ const courseData = [
                 {
                     type: 'sentence',
                     prompt: "Traduisez la phrase :<br><strong>Mon père a une grande maison parce qu'il travaille beaucoup.</strong>",
-                    bank: ["ny", "raiko", "lehibe", "be", "manana", "trano", "satria", "miasa", "izy"],
+                    bank: ["ny", "raiko", "lehibe", "be", "Manana", "trano", "satria", "miasa", "izy"],
                     answer: "Manana trano lehibe ny raiko satria miasa be izy"
                 }
             ]
@@ -1077,7 +1077,6 @@ const courseData = [
                 {
                     type: 'sentence',
                     prompt: "Traduisez la phrase :<br><strong>Le petit chat n'aime pas l'eau froide.</strong>",
-                    // Pour ce niveau, j'utilise la version grammaticalement correcte pour un meilleur apprentissage
                     bank: ["mangatsiaka", "ny", "rano", "saka", "kely", "Tsy", "tiany", "ilay"],
                     answer: "Tsy tiany ilay saka kely ny rano mangatsiaka"
                 }
@@ -1128,7 +1127,29 @@ const courseData = [
                 { type: 'sentence', prompt: "Traduisez :<br><strong>Où est ta mère ?</strong>", bank: ["endrinao?", "Aia", "i"], answer: "Aia i endrinao?" }
             ]
         }
-    }
+    },
+    {
+        level: 47,
+        title: "Dialecte: Questions",
+        lesson: {
+            title: "Leçon 47: Poser des questions locales",
+            prompts: [
+                { type: 'text', content: "Les mots interrogatifs sont souvent raccourcis et changent de sonorité." },
+                { type: 'word', malagasy: "Aia?", french: "Où ? (au lieu de Aiza?)" },
+                { type: 'word', malagasy: "Ino?", french: "Quoi ? (au lieu de Inona?)" },
+                { type: 'word', malagasy: "Akory?", french: "Comment ? (utilisé aussi pour 'comment ça va ?')" },
+                { type: 'text', content: "Exemple :<br><strong>Aia ny laka?</strong><br>(Où est la pirogue ?)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 47",
+            questions: [
+                { prompt: "Comment demande-t-on 'Où ?' en Antambahoaka ?", options: ["Aiza?", "Inona?", "Aia?", "Ino?"], answer: "Aia?" },
+                { prompt: "Que signifie 'Ino vaovao?'", options: ["Comment ça va ?", "Quoi de neuf ?", "Où sont les nouvelles ?", "Qui es-tu ?"], answer: "Quoi de neuf ?" },
+                { type: 'sentence', prompt: "Traduisez :<br><strong>Qu'est-ce que c'est ?</strong>", bank: ["ino", "ity?"], answer: "ino ity?" }
+            ]
+        }
+    },
 ];
 
 courseData[4].quiz.questions.push({
