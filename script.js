@@ -887,8 +887,247 @@ const courseData = [
                 { prompt: "L'expression 'Mahazoa sitraka' est une version très formelle de...", options: ["Merci", "S'il vous plaît", "Bonjour", "Au revoir"], answer: "S'il vous plaît" }
             ]
         }
+    },
+        {
+        level: 37,
+        title: "Parties du Corps",
+        lesson: {
+            title: "Leçon 37: Connaître son corps",
+            prompts: [
+                { type: 'word', malagasy: "Loha", french: "Tête" },
+                { type: 'word', malagasy: "Volo", french: "Cheveux" },
+                { type: 'word', malagasy: "Maso", french: "Œil / Yeux" },
+                { type: 'word', malagasy: "Sofina", french: "Oreille(s)" },
+                { type: 'word', malagasy: "Orona", french: "Nez" },
+                { type: 'word', malagasy: "Vava", french: "Bouche" },
+                { type: 'word', malagasy: "Nify", french: "Dent(s)" },
+                { type: 'word', malagasy: "Lela", french: "Langue" },
+                { type: 'word', malagasy: "Vozona", french: "Cou" },
+                { type: 'word', malagasy: "Soroka", french: "Épaule(s)" },
+                { type: 'word', malagasy: "Tratra", french: "Poitrine" },
+                { type: 'word', malagasy: "Lamosina", french: "Dos" },
+                { type: 'word', malagasy: "Kibo", french: "Ventre" },
+                { type: 'word', malagasy: "Sandry", french: "Bras" },
+                { type: 'word', malagasy: "Tanana", french: "Main" },
+                { type: 'word', malagasy: "Rantsan-tanana", french: "Doigt(s)" },
+                { type: 'word', malagasy: "Fe", french: "Cuisse(s)" },
+                { type: 'word', malagasy: "Lohalika", french: "Genou(x)" },
+                { type: 'word', malagasy: "Ranjo", french: "Jambe(s)" },
+                { type: 'word', malagasy: "Tongotra", french: "Pied(s)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 37",
+            questions: [
+                { prompt: "Comment dit-on 'Genou' ?", options: ["Loha", "Lohalika", "Vava", "Tanana"], answer: "Lohalika" },
+                { prompt: "Que signifie 'lamosina' ?", options: ["Poitrine", "Dos", "Ventre", "Épaule"], answer: "Dos" },
+                { prompt: "Pour parler de vos 'doigts', vous utilisez le mot...", options: ["Rantsan-tanana", "Tongotra", "Sandry", "Nify"], answer: "Rantsan-tanana" },
+                { prompt: "Le mot pour 'Nez' est...", options: ["Tanana", "Orona", "Vava", "Maso"], answer: "Orona" },
+                { prompt: "Que désigne le mot 'sofina' ?", options: ["La tête", "Les yeux", "La bouche", "Les oreilles"], answer: "Les oreilles" },
+                { prompt: "Comment dit-on 'Cheveux' ?", options: ["Vava", "Volo", "Loha", "Soroka"], answer: "Volo" }
+            ]
+        }
+    },
+    {
+        level: 38,
+        title: "Avoir (Possession)",
+        lesson: {
+            title: "Leçon 38: Exprimer la possession avec 'Manana'",
+            prompts: [
+                { type: 'text', content: "Pour dire 'avoir' dans le sens de posséder, on utilise le verbe <strong>'manana'</strong>." },
+                { type: 'text', content: "La structure est simple :<br><strong>Manana + [objet] + [sujet]</strong>" },
+                { type: 'word', malagasy: "Manana fiara aho.", french: "J'ai une voiture." },
+                { type: 'word', malagasy: "Manana saka kely izy.", french: "Il/Elle a un petit chat." },
+                { type: 'word', malagasy: "Tsy manana vola izahay.", french: "Nous n'avons pas d'argent." }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 38",
+            questions: [
+                { prompt: "Quel verbe utilise-t-on pour dire 'avoir' (posséder) ?", options: ["Misy", "Mahay", "Manana", "Mandeha"], answer: "Manana" },
+                { prompt: "Comment dirait-on 'J'ai un livre' ?", options: ["Boky aho", "Misy boky", "Manana boky aho", "Tiako ny boky"], answer: "Manana boky aho" },
+                { prompt: "Que signifie 'Manana alika ve ianao ?'", options: ["Aimes-tu les chiens ?", "Où est ton chien ?", "As-tu un chien ?", "C'est un chien ?"], answer: "As-tu un chien ?" },
+                { prompt: "Pour dire 'Il n'a pas de maison', on dirait...", options: ["Tsy trano izy", "Tsy manana trano izy", "Trano tsy misy", "Izy sy ny trano"], answer: "Tsy manana trano izy" },
+                { prompt: "La phrase 'Manana asa tsara aho' signifie...", options: ["J'aime mon travail", "Je travaille bien", "J'ai un bon travail", "Je cherche un travail"], answer: "J'ai un bon travail" }
+            ]
+        }
+    },
+    {
+        level: 39,
+        title: "Les Vêtements",
+        lesson: {
+            title: "Leçon 39: Comment s'habiller",
+            prompts: [
+                { type: 'word', malagasy: "Akanjo", french: "Vêtement / Robe" },
+                { type: 'word', malagasy: "Pataloha", french: "Pantalon" },
+                { type: 'word', malagasy: "Kiraro", french: "Chaussures" },
+                { type: 'word', malagasy: "Satroka", french: "Chapeau" },
+                { type: 'text', content: "Exemple combiné :<br><strong>Tiako ny akanjonao mena.</strong><br>(J'aime ta robe rouge.)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 39",
+            questions: [
+                { prompt: "Le mot général pour 'vêtement' est...", options: ["Pataloha", "Kiraro", "Satroka", "Akanjo"], answer: "Akanjo" },
+                { prompt: "Que met-on sur sa tête ?", options: ["Kiraro", "Akanjo", "Pataloha", "Satroka"], answer: "Satroka" },
+                { prompt: "Comment dit-on 'chaussures' ?", options: ["Satroka", "Kiraro", "Akanjo", "Tongotra"], answer: "Kiraro" },
+                { prompt: "Pour dire 'J'ai besoin d'un nouveau pantalon', on dirait...", options: ["Mila pataloha vaovao aho", "Pataloha vaovao aho", "Manana pataloha aho", "Tsara ny pataloha"], answer: "Mila pataloha vaovao aho" },
+                { prompt: "Que signifie 'Ohatrinona ity akanjo ity ?'", options: ["Aimes-tu ce vêtement ?", "Ce vêtement est grand.", "Où est mon vêtement ?", "Combien coûte ce vêtement ?"], answer: "Combien coûte ce vêtement ?" }
+            ]
+        }
+    },
+    {
+        level: 40,
+        title: "Révision Finale",
+        lesson: {
+            title: "Leçon 40: Mettre les connaissances en pratique",
+            prompts: [
+                { type: 'text', content: "<strong>Félicitations !</strong> Vous avez parcouru un long chemin. Voyons quelques phrases qui combinent tout ce que vous avez appris." },
+                { type: 'text', content: "<strong>Nandeha tany an-tsena niaraka tamin'ny reniko aho omaly, nefa tsy nividy na inona na inona satria tsy nanana vola.</strong><br>(Je suis allé(e) au marché avec ma mère hier, mais je n'ai rien acheté parce que je n'avais pas d'argent.)" },
+                { type: 'text', content: "<strong>Raha mafana ny andro rahampitso, handeha hilomano any amin'ny ranomasina isika.</strong><br>(S'il fait chaud demain, nous irons nager à la mer.)" },
+                { type: 'text', content: "<strong>Ny fiara manga no haingana indrindra, nefa ny fiara mena no tiako kokoa.</strong><br>(La voiture bleue est la plus rapide, mais je préfère la voiture rouge.)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz Final",
+            questions: [
+                { prompt: "Dans la 1ère phrase, 'niaraka tamin'ny' signifie...", options: ["après", "avant", "sans", "avec"], answer: "avec" },
+                { prompt: "Que signifie 'raha' au début de la 2ème phrase ?", options: ["Parce que", "Mais", "Si (condition)", "Où"], answer: "Si (condition)" },
+                { prompt: "Le verbe 'hilomano' (nager) est conjugué au...", options: ["Passé", "Présent", "Futur", "Impératif"], answer: "Futur" },
+                { prompt: "Dans la 3ème phrase, que veut dire 'no tiako kokoa' ?", options: ["est la meilleure", "est ce que j'aime le moins", "est ce que je préfère", "est ce que je déteste"], answer: "est ce que je préfère" },
+                { prompt: "Que signifie 'tsy nividy na inona na inona' ?", options: ["j'ai tout acheté", "je n'ai rien acheté", "j'ai acheté quelque chose", "j'achèterai plus tard"], answer: "je n'ai rien acheté" }
+            ]
+        }
+    },
+        {
+        level: 41,
+        title: "Challenge Phrase 1",
+        lesson: {
+            title: "Leçon 41: Passé et Négation",
+            prompts: [
+                { type: 'text', content: "Mettez vos connaissances à l'épreuve en reconstruisant une phrase complexe qui combine le temps passé, une conjonction de coordination ('mais') et une négation." }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 41",
+            questions: [
+                {
+                    type: 'sentence',
+                    prompt: "Traduisez la phrase :<br><strong>Je suis allé au marché hier, mais je n'ai pas acheté de poisson.</strong>",
+                    bank: ["Nandeha", "tsy", "aho", "omaly", "nefa", "nividy", "trondro", "tany", "an-tsena"],
+                    answer: "Nandeha tany an-tsena aho omaly nefa tsy nividy trondro"
+                }
+            ]
+        }
+    },
+    {
+        level: 42,
+        title: "Challenge Phrase 2",
+        lesson: {
+            title: "Leçon 42: Condition et Futur",
+            prompts: [
+                { type: 'text', content: "Construisez une phrase qui utilise une condition ('si') et un verbe au futur. Faites bien attention à l'ordre des pronoms sujets." }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 42",
+            questions: [
+                {
+                    type: 'sentence',
+                    prompt: "Traduisez la phrase :<br><strong>Si tu sais parler malgache, nous irons à Madagascar.</strong>",
+                    bank: ["Raha", "mahay", "isika", "any", "miteny", "malagasy", "handeha", "Madagasikara", "ianao"],
+                    answer: "Raha mahay miteny malagasy ianao handeha any Madagasikara isika"
+                }
+            ]
+        }
+    },
+    {
+        level: 43,
+        title: "Challenge Phrase 3",
+        lesson: {
+            title: "Leçon 43: Possession et Cause",
+            prompts: [
+                { type: 'text', content: "Cette phrase combine la possession ('mon père'), un adjectif, et une relation de cause ('parce que')." }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 43",
+            questions: [
+                {
+                    type: 'sentence',
+                    prompt: "Traduisez la phrase :<br><strong>Mon père a une grande maison parce qu'il travaille beaucoup.</strong>",
+                    bank: ["ny", "raiko", "lehibe", "be", "manana", "trano", "satria", "miasa", "izy"],
+                    answer: "Manana trano lehibe ny raiko satria miasa be izy"
+                }
+            ]
+        }
+    },
+    {
+        level: 44,
+        title: "Challenge Phrase 4",
+        lesson: {
+            title: "Leçon 44: Adjectifs et Négation",
+            prompts: [
+                { type: 'text', content: "Faites attention à l'ordre des mots ! En malgache, l'adjectif se place après le nom qu'il qualifie." }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 44",
+            questions: [
+                {
+                    type: 'sentence',
+                    prompt: "Traduisez la phrase :<br><strong>Le petit chat n'aime pas l'eau froide.</strong>",
+                    // Pour ce niveau, j'utilise la version grammaticalement correcte pour un meilleur apprentissage
+                    bank: ["mangatsiaka", "ny", "rano", "saka", "kely", "Tsy", "tiany", "ilay"],
+                    answer: "Tsy tiany ilay saka kely ny rano mangatsiaka"
+                }
+            ]
+        }
+    },
+    {
+        level: 45,
+        title: "Challenge Phrase 5",
+        lesson: {
+            title: "Leçon 45: Futur et Compléments",
+            prompts: [
+                { type: 'text', content: "Assemblez une phrase au futur en plaçant correctement les compléments de lieu ('au marché') et de temps ('demain')." }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 45",
+            questions: [
+                {
+                    type: 'sentence',
+                    prompt: "Traduisez la phrase :<br><strong>Ma mère achètera des fruits demain au marché.</strong>",
+                    bank: ["rahampitso", "hividy", "voankazo", "reniko", "any", "an-tsena", "ny"],
+                    answer: "Hividy voankazo any an-tsena ny reniko rahampitso"
+                }
+            ]
+        }
     }
 ];
+
+courseData[4].quiz.questions.push({
+    type: 'sentence',
+    prompt: "Traduisez la phrase :<br><strong>Je mange du riz.</strong>",
+    bank: ["vary", "aho", "Mihinana"], 
+    answer: "Mihinana vary aho"
+});
+
+courseData[12].quiz.questions.push({
+    type: 'sentence',
+    prompt: "Traduisez la phrase :<br><strong>J'ai besoin de viande.</strong>",
+    bank: ["Mila", "aho", "hena"],
+    answer: "Mila hena aho"
+});
+
+courseData[24].quiz.questions.push({
+    type: 'sentence',
+    prompt: "Traduisez la phrase :<br><strong>Je veux partir.</strong>",
+    bank: ["Tiako", "handeha", "ny"],
+    answer: "Tiako ny handeha"
+});
+
 
 const contentTitle = document.getElementById('content-title');
 const contentBody = document.getElementById('content-body');
@@ -896,7 +1135,7 @@ const levelsNav = document.getElementById('levels-nav');
 const quizFeedback = document.getElementById('quiz-feedback');
 const lessonNavigation = document.getElementById('lesson-navigation');
 
-let userProgress = { unlockedLevel: 1, currentQuizScore: 0 };
+let userProgress = { unlockedLevel: 1, currentQuizScore: 0, answeredQuestions: 0 };
 let currentPromptIndex = 0;
 
 function displayLesson(levelData) {
@@ -948,36 +1187,110 @@ function showCurrentPrompt(levelData) {
 
 function displayQuiz(levelData) {
     userProgress.currentQuizScore = 0;
+    userProgress.answeredQuestions = 0; 
     contentTitle.innerText = levelData.quiz.title;
     contentBody.innerHTML = '';
     quizFeedback.innerHTML = '';
     lessonNavigation.innerHTML = '';
 
     levelData.quiz.questions.forEach((question, index) => {
-        const questionDiv = document.createElement('div');
-        questionDiv.className = 'quiz-question';
-        const prompt = document.createElement('p');
-        prompt.innerHTML = `<strong>Question ${index + 1}:</strong> ${question.prompt}`;
-        questionDiv.appendChild(prompt);
-
-        const optionsDiv = document.createElement('div');
-        optionsDiv.className = 'quiz-options';
-        
-        const shuffledOptions = [...question.options].sort(() => Math.random() - 0.5);
-
-        shuffledOptions.forEach(option => {
-            const btn = document.createElement('button');
-            btn.innerText = option;
-            btn.onclick = (event) => checkAnswer(event, option, question.answer, levelData);
-            optionsDiv.appendChild(btn);
-        });
-
-        questionDiv.appendChild(optionsDiv);
-        contentBody.appendChild(questionDiv);
+        if (question.type === 'sentence') {
+            renderSentenceQuestion(question, index, levelData);
+        } else { 
+            renderMCQQuestion(question, index, levelData);
+        }
     });
 }
 
-function checkAnswer(event, selectedOption, correctAnswer, levelData) {
+function renderSentenceQuestion(question, index, levelData) {
+    const questionContainer = document.createElement('div');
+    questionContainer.className = 'sentence-question-container';
+
+    questionContainer.innerHTML = `
+        <p class="sentence-prompt"><strong>Question ${index + 1}:</strong> ${question.prompt}</p>
+        <div class="answer-area" id="answer-area-${index}"></div>
+        <div class="word-bank" id="word-bank-${index}"></div>
+        <div class="sentence-controls" id="sentence-controls-${index}"></div>
+    `;
+
+    const wordBank = questionContainer.querySelector(`#word-bank-${index}`);
+    const answerArea = questionContainer.querySelector(`#answer-area-${index}`);
+    const controls = questionContainer.querySelector(`#sentence-controls-${index}`);
+    
+    const shuffledBank = [...question.bank].sort(() => Math.random() - 0.5);
+
+    shuffledBank.forEach(word => {
+        const wordTag = document.createElement('div');
+        wordTag.className = 'word-tag';
+        wordTag.innerText = word;
+        wordTag.onclick = () => {
+            answerArea.appendChild(wordTag);
+            wordTag.onclick = () => {
+                wordBank.appendChild(wordTag);
+                wordTag.onclick = arguments.callee; 
+            };
+        };
+        wordBank.appendChild(wordTag);
+    });
+
+    const checkBtn = document.createElement('button');
+    checkBtn.innerText = 'Vérifier';
+    checkBtn.className = 'lesson-nav-btn btn-primary';
+    checkBtn.onclick = () => checkSentence(question.answer, answerArea, wordBank, controls, levelData);
+    controls.appendChild(checkBtn);
+    
+    contentBody.appendChild(questionContainer);
+}
+
+function renderMCQQuestion(question, index, levelData) {
+    const questionDiv = document.createElement('div');
+    questionDiv.className = 'quiz-question';
+    const prompt = document.createElement('p');
+    prompt.innerHTML = `<strong>Question ${index + 1}:</strong> ${question.prompt}`;
+    questionDiv.appendChild(prompt);
+
+    const optionsDiv = document.createElement('div');
+    optionsDiv.className = 'quiz-options';
+
+    const shuffledOptions = [...question.options].sort(() => Math.random() - 0.5);
+
+    shuffledOptions.forEach(option => {
+        const btn = document.createElement('button');
+        btn.innerText = option;
+        btn.onclick = (event) => checkMCQAnswer(event, option, question.answer, levelData);
+        optionsDiv.appendChild(btn);
+    });
+
+    questionDiv.appendChild(optionsDiv);
+    contentBody.appendChild(questionDiv);
+}
+
+function checkSentence(correctAnswer, answerArea, wordBank, controls, levelData) {
+    const words = Array.from(answerArea.children).map(tag => tag.innerText);
+    const userAnswer = words.join(' ');
+
+    Array.from(wordBank.children).forEach(tag => tag.onclick = null);
+    Array.from(answerArea.children).forEach(tag => tag.onclick = null);
+    controls.innerHTML = '';
+
+    if (userAnswer === correctAnswer) {
+        userProgress.currentQuizScore++;
+        answerArea.classList.add('correct');
+    } else {
+        answerArea.classList.add('incorrect');
+        const correctAnswerDiv = document.createElement('p');
+        correctAnswerDiv.innerHTML = `Bonne réponse : <strong>${correctAnswer}</strong>`;
+        answerArea.parentElement.appendChild(correctAnswerDiv);
+    }
+    
+    userProgress.answeredQuestions++;
+    if (userProgress.answeredQuestions >= levelData.quiz.questions.length) {
+        showQuizResult(levelData);
+    }
+}
+
+
+function checkMCQAnswer(event, selectedOption, correctAnswer, levelData) {
     const questionButtons = event.target.parentElement.querySelectorAll('button');
     questionButtons.forEach(btn => btn.disabled = true);
 
@@ -996,10 +1309,8 @@ function checkAnswer(event, selectedOption, correctAnswer, levelData) {
         });
     }
     
-    const totalQuestions = levelData.quiz.questions.length;
-    const answeredQuestions = document.querySelectorAll('.quiz-options button:disabled').length / levelData.quiz.questions[0].options.length;
-    
-    if (answeredQuestions >= totalQuestions) {
+    userProgress.answeredQuestions++;
+    if (userProgress.answeredQuestions >= levelData.quiz.questions.length) {
         showQuizResult(levelData);
     }
 }
@@ -1079,4 +1390,7 @@ function renderLevelButtons() {
 window.onload = () => {
     loadProgress();
     renderLevelButtons();
+    if (document.getElementById('content-body').innerText.includes('Sélectionnez un niveau')) {
+        displayLesson(courseData[0]);
+    }
 };
