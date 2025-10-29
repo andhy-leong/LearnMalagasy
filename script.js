@@ -1113,8 +1113,8 @@ const courseData = [
                 { type: 'text', content: "Élargissons le cercle familial avec les frères, sœurs et grands-parents en dialecte Antemoro." },
                 { type: 'word', malagasy: "Anadahy", french: "Frère" },
                 { type: 'word', malagasy: "Anabavy", french: "Sœur" },
-                { type: 'word', malagasy: "Gahy", french: "Grand-père (local)" },
-                { type: 'word', malagasy: "Vavy", french: "Grand-mère (local)" },
+                { type: 'word', malagasy: "Gahy", french: "Grand-père" },
+                { type: 'word', malagasy: "Vavy", french: "Grand-mère" },
                 { type: 'text', content: "Rappel : Pour dire 'ton/ta', on ajoute '-nao'.<br><strong>Iabanao</strong> (Ton père)<br><strong>Endrinao</strong> (Ta mère)" }
             ]
         },
@@ -1138,7 +1138,7 @@ const courseData = [
                 { type: 'word', malagasy: "Aia?", french: "Où ? (au lieu de Aiza?)" },
                 { type: 'word', malagasy: "Ino?", french: "Quoi ? (au lieu de Inona?)" },
                 { type: 'word', malagasy: "Akory?", french: "Comment ? (utilisé aussi pour 'comment ça va ?')" },
-                { type: 'text', content: "Exemple :<br><strong>Aia ny laka?</strong><br>(Où est la pirogue ?)" }
+                { type: 'text', content: "Exemple :<br><strong>Aia ny lakana?</strong><br>(Où est la pirogue ?)" }
             ]
         },
         quiz: {
@@ -1169,7 +1169,7 @@ const courseData = [
         quiz: {
             title: "Quiz du Niveau 57",
             questions: [
-                { prompt: "Comment dit-on 'Chien' en malgache ?", options: ["Piso", "Amboa", "Voay", "Vorondolo"], answer: "Piso" },
+                { prompt: "Comment dit-on 'Chien' en malgache ?", options: ["Piso", "Amboa", "Voay", "Vorondolo"], answer: "Amboa" },
                 { prompt: "Que signifie 'Vorondolo' ?", options: ["Poulet", "Oiseau", "Poisson de mer", "Hibou"], answer: "Hibou" },
                 { prompt: "Le mot pour 'Crocodile' est...", options: ["Piso", "Vorona", "Amboa", "Voay"], answer: "Voay" },
                 { prompt: "Comment prononcerait-on 'Vorona' (Oiseau) à Mananjary ?", options: ["Vorona", "Vuruna", "Varona", "Vorono"], answer: "Vuruna" },
