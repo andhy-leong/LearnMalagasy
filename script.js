@@ -1620,6 +1620,7 @@ function showCurrentPrompt(levelData) {
 
 
 function displayQuiz(levelData) {
+    contentTitle.scrollIntoView({ behavior: 'smooth' });
     userProgress.currentQuizScore = 0;
     userProgress.answeredQuestions = 0; 
     contentTitle.innerText = levelData.quiz.title;
