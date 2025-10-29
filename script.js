@@ -1176,6 +1176,368 @@ const courseData = [
                 { type: 'sentence', prompt: "Traduisez :<br><strong>Le chat mange le poisson.</strong>", bank: ["ny", "piso", "Mihinana", "laoka"], answer: "Mihinana laoka ny piso" }
             ]
         }
+    },
+    {
+        level: 49,
+        title: "Les Fruits",
+        lesson: {
+            title: "Leçon 49: Les fruits (Voankazo)",
+            prompts: [
+                { type: 'text', content: "Apprenons le nom de quelques fruits délicieux de Madagascar et d'ailleurs." },
+                { type: 'word', malagasy: "Akondro", french: "Banane" },
+                { type: 'word', malagasy: "Mananasy", french: "Ananas" },
+                { type: 'word', malagasy: "Voasary", french: "Orange" },
+                { type: 'word', malagasy: "Paoma", french: "Pomme" },
+                { type: 'word', malagasy: "Manga", french: "Mangue" },
+                { type: 'word', malagasy: "Letisia", french: "Litchi" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 49",
+            questions: [
+                { prompt: "Comment dit-on 'Banane' en malgache ?", options: ["Paoma", "Akondro", "Manga", "Letisia"], answer: "Akondro" },
+                { prompt: "Le mot 'Mananasy' désigne...", options: ["La mangue", "L'orange", "L'ananas", "La pomme"], answer: "L'ananas" },
+                { prompt: "Quel fruit est appelé 'Letisia' ?", options: ["Le litchi", "La banane", "La mangue", "L'orange"], answer: "Le litchi" },
+                { prompt: "Que signifie 'Manga' ?", options: ["Pomme", "Orange", "Ananas", "Mangue"], answer: "Mangue" }
+            ]
+        }
+    },
+    {
+        level: 50,
+        title: "Les Légumes",
+        lesson: {
+            title: "Leçon 50: Les légumes (Legioma)",
+            prompts: [
+                { type: 'text', content: "Les légumes sont la base de nombreux plats malgaches." },
+                { type: 'word', malagasy: "Karoty", french: "Carotte" },
+                { type: 'word', malagasy: "Ovy", french: "Pomme de terre" },
+                { type: 'word', malagasy: "Tongolo", french: "Oignon" },
+                { type: 'word', malagasy: "Voatabia", french: "Tomate" },
+                { type: 'word', malagasy: "Anana", french: "Brèdes (légumes-feuilles)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 50",
+            questions: [
+                { prompt: "Comment dit-on 'Tomate' ?", options: ["Ovy", "Karoty", "Tongolo", "Voatabia"], answer: "Voatabia" },
+                { prompt: "Que signifie 'Ovy' ?", options: ["Carotte", "Oignon", "Pomme de terre", "Brèdes"], answer: "Pomme de terre" },
+                { prompt: "Le mot 'Anana' est un terme générique pour...", options: ["Les fruits", "Les tubercules", "Les légumes-feuilles", "Les épices"], answer: "Les légumes-feuilles" },
+                { prompt: "Pour dire 'Oignon', on utilise le mot...", options: ["Tongolo", "Voatabia", "Karoty", "Ovy"], answer: "Tongolo" }
+            ]
+        }
+    },
+    {
+        level: 51,
+        title: "La Cuisine Malgache",
+        lesson: {
+            title: "Leçon 51: Plats et verbes de cuisine",
+            prompts: [
+                { type: 'text', content: "La cuisine malgache est simple mais savoureuse. Le riz (vary) est l'aliment de base." },
+                { type: 'word', malagasy: "Romazava", french: "Bouillon de brèdes et de viande" },
+                { type: 'word', malagasy: "Ravitoto", french: "Feuilles de manioc pilées avec de la viande" },
+                { type: 'word', malagasy: "Mandraho", french: "Cuisiner / Faire bouillir" },
+                { type: 'word', malagasy: "Manapaka", french: "Couper" },
+                { type: 'word', malagasy: "Manendy", french: "Frire / Griller" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 51",
+            questions: [
+                { prompt: "Quel plat est fait à base de feuilles de manioc pilées ?", options: ["Romazava", "Vary amin'anana", "Ravitoto", "Mofo gasy"], answer: "Ravitoto" },
+                { prompt: "Le verbe 'Mandraho' signifie...", options: ["Couper", "Mélanger", "Cuisiner / Faire bouillir", "Frire"], answer: "Cuisiner / Faire bouillir" },
+                { prompt: "Que veut dire 'Manapaka' ?", options: ["Goûter", "Servir", "Laver", "Couper"], answer: "Couper" },
+                { prompt: "Le 'Romazava' est une sorte de...", options: ["Dessert", "Gâteau de riz", "Bouillon", "Friture"], answer: "Bouillon" }
+            ]
+        }
+    },
+    {
+        level: 52,
+        title: "Les Ustensiles",
+        lesson: {
+            title: "Leçon 52: Les ustensiles de cuisine",
+            prompts: [
+                { type: 'text', content: "Voici quelques objets utiles dans la cuisine (dakozia)." },
+                { type: 'word', malagasy: "Vilany", french: "Marmite / Casserole" },
+                { type: 'word', malagasy: "Antsy", french: "Couteau" },
+                { type: 'word', malagasy: "Sotro", french: "Cuillère" },
+                { type: 'word', malagasy: "Lovia", french: "Assiette" },
+                { type: 'word', malagasy: "Vera", french: "Verre" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 52",
+            questions: [
+                { prompt: "Comment dit-on 'Couteau' en malgache ?", options: ["Sotro", "Lovia", "Antsy", "Vilany"], answer: "Antsy" },
+                { prompt: "Que signifie 'Vilany' ?", options: ["Fourchette", "Marmite", "Verre", "Assiette"], answer: "Marmite" },
+                { prompt: "Le mot 'Lovia' désigne...", options: ["L'assiette", "Le couteau", "La cuillère", "Le verre"], answer: "L'assiette" },
+                { prompt: "Pour boire de l'eau, vous utilisez un...", options: ["Sotro", "Antsy", "Vera", "Lovia"], answer: "Vera" }
+            ]
+        }
+    },
+    {
+        level: 53,
+        title: "La Nature (Détails)",
+        lesson: {
+            title: "Leçon 53: Faune et flore",
+            prompts: [
+                { type: 'text', content: "Madagascar a une nature unique au monde. Apprenons quelques mots spécifiques." },
+                { type: 'word', malagasy: "Hazo", french: "Arbre" },
+                { type: 'word', malagasy: "Voninkazo", french: "Fleur" },
+                { type: 'word', malagasy: "Ravinala", french: "Arbre du voyageur" },
+                { type: 'word', malagasy: "Baobaba", french: "Baobab" },
+                { type: 'word', malagasy: "Fossa", french: "Fossa (le plus grand prédateur de Mada)" },
+                { type: 'word', malagasy: "Soavaly", french: "Cheval" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 53",
+            questions: [
+                { prompt: "Le 'Ravinala' est connu comme...", options: ["Le baobab", "La fleur nationale", "L'arbre du voyageur", "Un type de lémurien"], answer: "L'arbre du voyageur" },
+                { prompt: "Comment dit-on 'Fleur' ?", options: ["Hazo", "Ala", "Voninkazo", "Ravinala"], answer: "Voninkazo" },
+                { prompt: "Le 'Fossa' est un...", options: ["Oiseau", "Arbre", "Prédateur", "Lémurien"], answer: "Prédateur" },
+                { prompt: "Que veut dire 'Hazo' ?", options: ["Fleur", "Arbre", "Forêt", "Feuille"], answer: "Arbre" }
+            ]
+        }
+    },
+    {
+        level: 54,
+        title: "Le Monde du Travail",
+        lesson: {
+            title: "Leçon 54: Au bureau",
+            prompts: [
+                { type: 'text', content: "Un peu de vocabulaire pour parler du travail (asa)." },
+                { type: 'word', malagasy: "Asa", french: "Travail / Emploi" },
+                { type: 'word', malagasy: "Birao", french: "Bureau" },
+                { type: 'word', malagasy: "Fivoriana", french: "Réunion" },
+                { type: 'word', malagasy: "Mpiara-miasa", french: "Collègue" },
+                { type: 'word', malagasy: "Solosaina", french: "Ordinateur" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 54",
+            questions: [
+                { prompt: "Le mot 'Fivoriana' signifie...", options: ["Bureau", "Pause déjeuner", "Réunion", "Contrat"], answer: "Réunion" },
+                { prompt: "Comment appelle-t-on un 'collègue' ?", options: ["Mpiasa", "Mpampiasa", "Mpiara-miasa", "Mpianatra"], answer: "Mpiara-miasa" },
+                { prompt: "Que signifie 'Solosaina' ?", options: ["Téléphone", "Imprimante", "Ordinateur", "Dossier"], answer: "Ordinateur" },
+                { prompt: "Pour parler de votre lieu de travail physique, vous utilisez le mot...", options: ["Asa", "Birao", "Fivoriana", "Orinasa"], answer: "Birao" }
+            ]
+        }
+    },
+    {
+        level: 55,
+        title: "Négocier au Marché",
+        lesson: {
+            title: "Leçon 55: L'art du marchandage",
+            prompts: [
+                { type: 'text', content: "Au marché (tsena), il est courant de discuter les prix. Faisons-le avec le sourire !" },
+                { type: 'word', malagasy: "Ohatrinona ity?", french: "Combien ça coûte ?" },
+                { type: 'word', malagasy: "Lafo be!", french: "C'est trop cher !" },
+                { type: 'word', malagasy: "Misy fihenany?", french: "Y a-t-il une réduction ?" },
+                { type: 'word', malagasy: "Omeo vidiny farany.", french: "Donnez-moi le dernier prix." },
+                { type: 'text', content: "Exemple de réponse :<br><strong>Dimy arivo ariary no farany.</strong><br>(Cinq mille ariary, c'est le dernier prix.)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 55",
+            questions: [
+                { prompt: "Quelle est la première question à poser pour connaître le prix ?", options: ["Lafo be?", "Misy fihenany?", "Ohatrinona ity?", "Misaotra"], answer: "Ohatrinona ity?" },
+                { prompt: "Si vous trouvez que le prix est trop élevé, vous pouvez vous exclamer...", options: ["Tsara be!", "Lafo be!", "Mora!", "Azafady"], answer: "Lafo be!" },
+                { prompt: "Que signifie 'Misy fihenany?'", options: ["Quel est le prix ?", "Est-ce que c'est frais ?", "Y a-t-il une réduction ?", "Puis-je goûter ?"], answer: "Y a-t-il une réduction ?" },
+                { prompt: "Pour demander le 'dernier prix', vous dites...", options: ["Vidiny voalohany", "Omeo vidiny farany", "Ohatrinona indray?", "Tsy manam-bola"], answer: "Omeo vidiny farany" }
+            ]
+        }
+    },
+    {
+        level: 56,
+        title: "Montrer les Choses",
+        lesson: {
+            title: "Leçon 59: Ceci, Cela (Ity, Io, Irỳ)",
+            prompts: [
+                { type: 'text', content: "Pour désigner des objets, le malgache utilise des mots qui dépendent de la distance." },
+                { type: 'word', malagasy: "Ity", french: "Ceci (très proche, souvent touché)" },
+                { type: 'word', malagasy: "Io", french: "Cela (proche, visible, on peut le pointer)" },
+                { type: 'word', malagasy: "Irỳ", french: "Cela, là-bas (loin, à l'horizon)" },
+                { type: 'text', content: "Exemple :<br><strong>Tsara ity boky ity.</strong><br>(Ce livre-ci est bon.)" },
+                { type: 'text', content: "Exemple 2 :<br><strong>Ohatrinona io satroka io?</strong><br>(Combien coûte ce chapeau-là ?)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 56",
+            questions: [
+                { prompt: "Quel mot utiliser pour un objet que vous tenez dans la main ?", options: ["Ity", "Io", "Irỳ", "Izy"], answer: "Ity" },
+                { prompt: "Pour demander le prix d'un article sur un étalage juste en face de vous, vous diriez...", options: ["Ohatrinona ity... ?", "Ohatrinona io... ?", "Ohatrinona irỳ... ?"], answer: "Ohatrinona io... ?" },
+                { prompt: "Que signifie la phrase 'Lafo irỳ trano irỳ' ?", options: ["Cette maison ici est chère", "Cette maison-là (proche) est chère", "Cette maison là-bas (loin) est chère"], answer: "Cette maison là-bas (loin) est chère" },
+                { prompt: "Si vous pointez un arbre de l'autre côté d'un champ, quel mot est le plus approprié ?", options: ["Ity", "Io", "Irỳ"], answer: "Irỳ" }
+            ]
+        }
+    },
+    {
+        level: 57,
+        title: "Les Préfixes Verbaux",
+        lesson: {
+            title: "Leçon 57: Changer le sens avec les préfixes",
+            prompts: [
+                { type: 'text', content: "En malgache, un préfixe peut totalement changer le sens d'un verbe. Voyons deux exemples très courants." },
+                { type: 'text', content: "Le préfixe <strong>'Mampi-'</strong><br>Il signifie 'faire faire' une action (causatif)." },
+                { type: 'word', malagasy: "Matory (dormir) -> Mampatory", french: "Endormir (faire dormir)" },
+                { type: 'word', malagasy: "Mihinana (manger) -> Mampihinana", french: "Nourrir (faire manger)" },
+                { type: 'text', content: "Le préfixe <strong>'Mifamp-'</strong><br>Il indique une action réciproque (l'un à l'autre)." },
+                { type: 'word', malagasy: "Mahita (voir) -> Mifankahita", french: "Se voir / Se rencontrer" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 57",
+            questions: [
+                { prompt: "Quel préfixe utilise-t-on pour indiquer une action que l'on fait faire à quelqu'un ?", options: ["Mifamp-", "Maha-", "Mampi-", "Man-"], answer: "Mampi-" },
+                { prompt: "Comment dirait-on 'faire travailler' à partir du verbe 'miasa' (travailler) ?", options: ["Mifampiasa", "Mampiasa", "Miasa be", "Asa"], answer: "Mampiasa" },
+                { prompt: "Le préfixe 'Mifamp-' (ou ses variantes comme 'Mifanka-') exprime...", options: ["La négation", "La capacité", "La réciprocité", "Le futur"], answer: "La réciprocité" },
+                { prompt: "Que signifie 'Mifankatia' (formé sur 'tia' - aimer) ?", options: ["Faire aimer", "Ne pas aimer", "S'aimer l'un l'autre", "Pouvoir aimer"], answer: "S'aimer l'un l'autre" }
+            ]
+        }
+    },
+    {
+        level: 58,
+        title: "Les Suffixes Possessifs",
+        lesson: {
+            title: "Leçon 58: À qui ça appartient ?",
+            prompts: [
+                { type: 'text', content: "Vous connaissez déjà les suffixes possessifs ! C'est une révision pour montrer comment ils s'appliquent à n'importe quel nom." },
+                { type: 'word', malagasy: "Trano (maison) -> Tranoko", french: "Ma maison" },
+                { type: 'word', malagasy: "Saka (chat) -> Sakanao", french: "Ton chat" },
+                { type: 'word', malagasy: "Boky (livre) -> Bokiny", french: "Son livre" },
+                { type: 'word', malagasy: "Asa (travail) -> Asantsika", french: "Notre travail (inclusif)" },
+                { type: 'word', malagasy: "Fiara (voiture) -> Fiarantsika", french: "Notre voiture (exclusif)" },
+                { type: 'word', malagasy: "Sekoly (école) -> Sekolinareo", french: "Votre école" },
+                { type: 'word', malagasy: "Alika (chien) -> Alikan'izy ireo", french: "Leur chien" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 58",
+            questions: [
+                { prompt: "Comment dit-on 'Mon ordinateur' (solosaina) ?", options: ["Solosainako", "Solosainanao", "Solosainany", "Solosaina"], answer: "Solosainako" },
+                { prompt: "Le suffixe '-nareo' correspond à quel pronom ?", options: ["Nous", "Vous", "Ils/Elles", "Tu"], answer: "Vous" },
+                { prompt: "Que signifie 'Satrokany' ?", options: ["Mon chapeau", "Ton chapeau", "Son chapeau", "Leur chapeau"], answer: "Son chapeau" },
+                { prompt: "Pour dire 'Notre ami (inclusif)' (namana), on dirait...", options: ["Namanay", "Namanantsika", "Namanareo", "Naman'izy ireo"], answer: "Namanantsika" }
+            ]
+        }
+    },
+    {
+        level: 59,
+        title: "Le Conditionnel",
+        lesson: {
+            title: "Leçon 59: Exprimer une hypothèse avec 'Raha'",
+            prompts: [
+                { type: 'text', content: "Pour exprimer une condition ou une hypothèse ('si...'), on utilise le mot <strong>'raha'</strong> en début de phrase." },
+                { type: 'text', content: "La structure est simple :<br><strong>Raha [condition], [résultat].</strong>" },
+                { type: 'word', malagasy: "Raha misy masoandro, mandeha aho.", french: "S'il y a du soleil, je pars." },
+                { type: 'word', malagasy: "Raha manam-bola ianao, hividy fiara ve ianao?", french: "Si tu as de l'argent, achèteras-tu une voiture ?" },
+                { type: 'text', content: "On peut aussi l'utiliser pour exprimer un regret au passé :<br><strong>Raha nianatra tsara aho, ...</strong><br>(Si j'avais bien étudié, ...)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 59",
+            questions: [
+                { prompt: "Quel mot malgache utilise-t-on pour dire 'Si' (condition) ?", options: ["Satria", "Nefa", "Ary", "Raha"], answer: "Raha" },
+                { prompt: "Comment traduiriez-vous 'S'il pleut, je ne sors pas' ?", options: ["Satria milatsaka ny orana, tsy mivoaka aho", "Raha milatsaka ny orana, tsy mivoaka aho", "Milatsaka ny orana nefa mivoaka aho"], answer: "Raha milatsaka ny orana, tsy mivoaka aho" },
+                { prompt: "Que signifie la phrase 'Raha noana ianao, mihinàna.' ?", options: ["Si tu as faim, mange.", "Parce que tu as faim, tu manges.", "Quand tu as faim, tu manges.", "Tu as faim, mais ne mange pas."], answer: "Si tu as faim, mange." },
+                { prompt: "Complétez la phrase : '___ vizaka aho, matory aho.'", options: ["Nefa", "Satria", "Raha", "Sy"], answer: "Raha" }
+            ]
+        }
+    },
+    {
+        level: 60,
+        title: "Conjonctions de Temps",
+        lesson: {
+            title: "Leçon 60: Raconter une histoire",
+            prompts: [
+                { type: 'text', content: "Pour organiser des événements dans le temps, on utilise des mots de liaison." },
+                { type: 'word', malagasy: "Rehefa", french: "Quand / Lorsque" },
+                { type: 'word', malagasy: "Aloha", french: "Avant" },
+                { type: 'word', malagasy: "Avy eo", french: "Après / Ensuite" },
+                { type: 'text', content: "Exemple :<br><strong>Alohan'ny hihinana, misasa tanana aho.</strong><br>(Avant de manger, je me lave les mains.)" },
+                { type: 'text', content: "Exemple 2 :<br><strong>Miasa aho, avy eo miala sasatra.</strong><br>(Je travaille, ensuite je me repose.)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 60",
+            questions: [
+                { prompt: "Quel mot signifie 'Quand' ou 'Lorsque' ?", options: ["Aloha", "Avy eo", "Rehefa", "Raha"], answer: "Rehefa" },
+                { prompt: "Comment dit-on 'Après' ou 'Ensuite' ?", options: ["Aloha", "Avy eo", "Satria", "Nefa"], answer: "Avy eo" },
+                { prompt: "Que signifie 'Aloha' ?", options: ["Après", "Pendant", "Avant", "Jamais"], answer: "Avant" },
+                { prompt: "Complétez : 'Rehefa tonga aho, ___ niantso anao aho.'", options: ["avy eo", "dia", "aloha", "nefa"], answer: "dia" }
+            ]
+        }
+    },
+    {
+        level: 61,
+        title: "Exprimer son Opinion",
+        lesson: {
+            title: "Leçon 61: Donner son avis",
+            prompts: [
+                { type: 'text', content: "Apprenons à partager ce que nous pensons." },
+                { type: 'word', malagasy: "Heveriko fa...", french: "Je pense que..." },
+                { type: 'word', malagasy: "Raha ny hevitro...", french: "À mon avis..." },
+                { type: 'word', malagasy: "Manaiky aho.", french: "Je suis d'accord." },
+                { type: 'word', malagasy: "Tsy manaiky aho.", french: "Je ne suis pas d'accord." },
+                { type: 'text', content: "Exemple :<br><strong>Heveriko fa tsara ity boky ity.</strong><br>(Je pense que ce livre est bon.)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 61",
+            questions: [
+                { prompt: "Pour dire 'Je pense que...', on utilise...", options: ["Raha ny hevitro...", "Heveriko fa...", "Manaiky aho...", "Satria..."], answer: "Heveriko fa..." },
+                { prompt: "Comment exprimer son désaccord ?", options: ["Manaiky aho.", "Tsy manaiky aho.", "Heveriko fa...", "Azafady"], answer: "Tsy manaiky aho." },
+                { prompt: "Que signifie 'Raha ny hevitro...' ?", options: ["Je crois que...", "Je ne sais pas...", "À mon avis...", "C'est certain que..."], answer: "À mon avis..." },
+                { prompt: "Votre ami dit 'Lafo be ny fiara'. Vous êtes d'accord. Que répondez-vous ?", options: ["Tsy manaiky aho.", "Manaiky aho.", "Angamba.", "Tsy haiko."], answer: "Manaiky aho." }
+            ]
+        }
+    },
+    {
+        level: 62,
+        title: "Raconter sa Journée",
+        lesson: {
+            title: "Leçon 62: Qu'as-tu fait aujourd'hui ?",
+            prompts: [
+                { type: 'text', content: "Combinons tout ce que nous avons appris pour raconter une journée simple au passé." },
+                { type: 'text', content: "<strong>Nifoha maraina aho.</strong><br>(Je me suis levé(e) tôt.)" },
+                { type: 'text', content: "<strong>Avy eo, nihinana mofo sy nisotro kafe aho.</strong><br>(Ensuite, j'ai mangé du pain et bu du café.)" },
+                { type: 'text', content: "<strong>Nandeha niasa aho.</strong><br>(Je suis allé(e) travailler.)" },
+                { type: 'text', content: "<strong>Rehefa hariva, nody aho ary natory.</strong><br>(Quand le soir est arrivé, je suis rentré(e) et j'ai dormi.)" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 62",
+            questions: [
+                { prompt: "Le verbe 'nifoha' est la forme passée de...", options: ["Mifoha (se lever)", "Matory (dormir)", "Mihinana (manger)"], answer: "Mifoha (se lever)" },
+                { prompt: "Que signifie 'nisotro' ?", options: ["J'ai mangé", "J'ai vu", "J'ai bu", "Je suis allé"], answer: "J'ai bu" },
+                { prompt: "Comment dit-on 'Je suis rentré(e) à la maison' ?", options: ["Nandeha niasa aho", "Nody aho", "Nifoha aho"], answer: "Nody aho" },
+                { prompt: "Quel mot de liaison est utilisé pour dire 'Ensuite' dans les exemples ?", options: ["Rehefa", "Aloha", "Avy eo", "Nefa"], answer: "Avy eo" }
+            ]
+        }
+    },
+    {
+        level: 63,
+        title: "Les Parties de la Journée",
+        lesson: {
+            title: "Leçon 63: Se repérer dans le temps",
+            prompts: [
+                { type: 'text', content: "Soyons plus précis pour parler des moments de la journée (andro)." },
+                { type: 'word', malagasy: "Maraina", french: "Matin" },
+                { type: 'word', malagasy: "Atoandro", french: "Midi / Milieu de journée" },
+                { type: 'word', malagasy: "Tolakandro", french: "Après-midi" },
+                { type: 'word', malagasy: "Hariva", french: "Soir" },
+                { type: 'word', malagasy: "Alina", french: "Nuit" }
+            ]
+        },
+        quiz: {
+            title: "Quiz du Niveau 63",
+            questions: [
+                { prompt: "Comment dit-on 'Après-midi' ?", options: ["Maraina", "Atoandro", "Tolakandro", "Hariva"], answer: "Tolakandro" },
+                { prompt: "Que signifie 'Hariva' ?", options: ["Matin", "Midi", "Soir", "Nuit"], answer: "Soir" },
+                { prompt: "Le moment où le soleil est au plus haut s'appelle...", options: ["Maraina", "Tolakandro", "Alina", "Atoandro"], answer: "Atoandro" },
+                { prompt: "Quand il fait tout noir, c'est la...", options: ["Hariva", "Alina", "Maraina", "Atoandro"], answer: "Alina" }
+            ]
+        }
     }
 ];
 
